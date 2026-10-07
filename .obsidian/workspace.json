@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskretne funkcije.md",
+                "file": "Diskretne funkcije/Diskretne funkcije.md",
                 "mode": "source",
                 "source": false
               },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diskretne funkcije.md",
+                "file": "Diskretne funkcije/Diskretne funkcije.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diskretne funkcije.md",
+                "file": "Diskretne funkcije/Diskretne funkcije.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diskretne funkcije.md",
+                "file": "Diskretne funkcije/Diskretne funkcije.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330.2999267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a512b482f62f981",
+  "active": "4d1768a4ca3c3cb7",
   "lastOpenFiles": [
+    "Diskretne funkcije",
     "Welcome.md",
-    "Diskretne funkcije.md",
+    "Diskretne funkcije/Diskretne funkcije.md",
     "create a link.md"
   ]
 }
