@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika.md",
+                "file": "matematika/Matematika.md",
                 "mode": "source",
                 "source": false
               },
@@ -304,7 +304,8 @@
   "active": "f8344daa6ab6e2df",
   "lastOpenFiles": [
     "Diskretne funkcije/matematična indukcija.md",
-    "Matematika.md",
+    "matematika/Matematika.md",
+    "matematika",
     "Bližnjice/02 Markdown - osnove.md",
     "Bližnjice/04 Latex Suite - osnove.md",
     "Bližnjice/05 Latex Suite - simboli.md",
