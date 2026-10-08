@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskretne funkcije/Diskretne funkcije.md",
+                "file": "obsidian-bliznjice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diskretne funkcije"
+              "title": "obsidian-bliznjice"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diskretne funkcije/Diskretne funkcije.md",
+                "file": "obsidian-bliznjice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diskretne funkcije/Diskretne funkcije.md",
+                "file": "obsidian-bliznjice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diskretne funkcije/Diskretne funkcije.md",
+                "file": "obsidian-bliznjice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.2999267578125
+    "width": 364.699951171875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,11 +199,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d1768a4ca3c3cb7",
+  "active": "451264c88924f998",
   "lastOpenFiles": [
+    "Diskretne funkcije/matematična indukcija.md",
+    "obsidian-bliznjice.md",
+    "Untitled.md",
+    "stvari",
     "Diskretne funkcije",
     "Welcome.md",
-    "Diskretne funkcije/Diskretne funkcije.md",
     "create a link.md"
   ]
 }
