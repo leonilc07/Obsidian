@@ -28,16 +28,16 @@ Nazaj na [[00 Kazalo|Kazalo]]. Snippeti: [[05 Latex Suite - simboli|simboli]], [
 
 ## Funkcije plugina
 
-| Funkcija | Kako deluje |
-|-|-|
-| **Auto-fraction** | `x/` → `\frac{x}{ }`, kurzor je v imenovalcu, `Tab` izstopi iz ulomka. Deluje tudi z oklepaji: `(a + b)/` |
-| **Tabout** | `Tab` na koncu formule te premakne iz `$`. Znotraj `\left … \right` skoči za `\right`, sicer na naslednji zaključni oklepaj `)`, `]`, `}`, `\rangle`, `\rvert` |
-| **Matrične bližnjice** | V okoljih matrix, array, align, cases: `Tab` → `&`, `Enter` → `\\` in nova vrstica, `Shift+Enter` → konec naslednje vrstice (izhod iz matrike) |
-| **Vizualni snippeti** | Označi del formule in pritisni eno črko (tabela spodaj) |
-| **Auto-enlarge brackets** | Ko se razširi snippet z `\sum`, `\int` ali `\frac`, se okoliški oklepaji povečajo z `\left` in `\right` |
-| **Conceal** | Skrije LaTeX kodo in prikaže lepšo obliko (ẋ², √…). Kodo vidiš, ko kurzor pride nanjo. **Vklopiš v nastavitvah plugina**, mono pisava pa mora podpirati simbole (npr. JuliaMono) |
-| **Preview inline math** | Ko je kurzor v formuli v vrstici, se prikaže okno z izrisano formulo |
-| **Barvni oklepaji** | Pari oklepajev imajo enako barvo, ob kurzorju se par označi |
+| Funkcija                  | Kako deluje                                                                                                                                                                      |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Auto-fraction**         | `x/` → `\frac{x}{ }`, kurzor je v imenovalcu, `Tab` izstopi iz ulomka. Deluje tudi z oklepaji: `(a + b)/`                                                                        |
+| **Tabout**                | `Tab` na koncu formule te premakne iz `$`. Znotraj `\left … \right` skoči za `\right`, sicer na naslednji zaključni oklepaj `)`, `]`, `}`, `\rangle`, `\rvert`                   |
+| **Matrične bližnjice**    | V okoljih matrix, array, align, cases: `Tab` → `&`, `Enter` → `\\` in nova vrstica, `Shift+Enter` → konec naslednje vrstice (izhod iz matrike)                                   |
+| **Vizualni snippeti**     | Označi del formule in pritisni eno črko (tabela spodaj)                                                                                                                          |
+| **Auto-enlarge brackets** | Ko se razširi snippet z `\sum`, `\int` ali `\frac`, se okoliški oklepaji povečajo z `\left` in `\right`                                                                          |
+| **Conceal**               | Skrije LaTeX kodo in prikaže lepšo obliko (ẋ², √…). Kodo vidiš, ko kurzor pride nanjo. **Vklopiš v nastavitvah plugina**, mono pisava pa mora podpirati simbole (npr. JuliaMono) |
+| **Preview inline math**   | Ko je kurzor v formuli v vrstici, se prikaže okno z izrisano formulo                                                                                                             |
+| **Barvni oklepaji**       | Pari oklepajev imajo enako barvo, ob kurzorju se par označi                                                                                                                      |
 
 Ukaza v Command palette (`Ctrl+P`): **Box current equation** (formulo obda z `\boxed{ }`) in **Select current equation** (izbere formulo). Bližnjico jima dodeliš sam v Settings → Hotkeys.
 

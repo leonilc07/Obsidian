@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d10cd3c046d7183",
+        "id": "2a256340f57f1681",
         "type": "tabs",
         "children": [
           {
-            "id": "2a512b482f62f981",
+            "id": "939e4864f245442b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -199,19 +199,106 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a512b482f62f981",
+  "floating": {
+    "id": "5356e37c52cde4d9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "dafbccb8396c9609",
+        "type": "window",
+        "children": [
+          {
+            "id": "9a39481f4de936ed",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "23fa990b3c5d377b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Bližnjice/04 Latex Suite - osnove.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "04 Latex Suite - osnove"
+                }
+              },
+              {
+                "id": "40b136519d98086c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Bližnjice/02 Markdown - osnove.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "02 Markdown - osnove"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": -960,
+        "y": 6,
+        "width": 960,
+        "height": 1032,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "275a66e9947238a7",
+        "type": "window",
+        "children": [
+          {
+            "id": "d39e4406d9bd222f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ea05d7518d8d90eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Bližnjice/05 Latex Suite - simboli.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "05 Latex Suite - simboli"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1919,
+        "y": 6,
+        "width": 957,
+        "height": 1031,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "939e4864f245442b",
   "lastOpenFiles": [
-    "obsidian-bliznjice.md",
+    "Bližnjice/02 Markdown - osnove.md",
     "Diskretne funkcije/matematična indukcija.md",
+    "Bližnjice/04 Latex Suite - osnove.md",
+    "Bližnjice/05 Latex Suite - simboli.md",
+    "Bližnjice/00 Kazalo.md",
+    "obsidian-bliznjice.md",
     "Bližnjice/08 Moje bližnjice.md",
     "Bližnjice/07 Calctex.md",
     "Bližnjice/06 Latex Suite - formule.md",
     "Bližnjice/03 Markdown - povezave in struktura.md",
-    "Bližnjice/04 Latex Suite - osnove.md",
-    "Bližnjice/05 Latex Suite - simboli.md",
-    "Bližnjice/02 Markdown - osnove.md",
     "Bližnjice/01 Obsidian - bližnjice.md",
-    "Bližnjice/00 Kazalo.md",
     "Bližnjice",
     "Untitled.md",
     "stvari",

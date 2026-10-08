@@ -13,19 +13,19 @@ Nazaj na [[00 Kazalo|Kazalo]]. Prej: [[04 Latex Suite - osnove|osnove]]. Naprej:
 
 ## Grške črke
 
-| Vpiši | Videz | Vpiši | Videz |
-|-|-|-|-|
-| `@a` | $\alpha$ | `@s` | $\sigma$ |
-| `@b` | $\beta$ | `@S` | $\Sigma$ |
-| `@g` | $\gamma$ | `@u` | $\upsilon$ |
-| `@G` | $\Gamma$ | `@U` | $\Upsilon$ |
-| `@d` | $\delta$ | `@o`, `ome` | $\omega$ |
-| `@D` | $\Delta$ | `@O`, `Ome` | $\Omega$ |
-| `@e` | $\epsilon$ | `@i` | $\iota$ |
-| `:e` | $\varepsilon$ | `@k` | $\kappa$ |
-| `@z` | $\zeta$ | `@l` | $\lambda$ |
-| `@t` | $\theta$ | `@L` | $\Lambda$ |
-| `@T` | $\Theta$ | `:t` | $\vartheta$ |
+| Vpiši | Videz         | Vpiši       | Videz       |
+| ----- | ------------- | ----------- | ----------- |
+| `@a`  | $\alpha$      | `@s`        | $\sigma$    |
+| `@b`  | $\beta$       | `@S`        | $\Sigma$    |
+| `@g`  | $\gamma$      | `@u`        | $\upsilon$  |
+| `@G`  | $\Gamma$      | `@U`        | $\Upsilon$  |
+| `@d`  | $\delta$      | `@o`, `ome` | $\omega$    |
+| `@D`  | $\Delta$      | `@O`, `Ome` | $\Omega$    |
+| `@e`  | $\epsilon$    | `@i`        | $\iota$     |
+| `:e`  | $\varepsilon$ | `@k`        | $\kappa$    |
+| `@z`  | $\zeta$       | `@l`        | $\lambda$   |
+| `@t`  | $\theta$      | `@L`        | $\Lambda$   |
+| `@T`  | $\Theta$      | `:t`        | $\vartheta$ |
 
 Črke s kratkim imenom samo vtipkaš (backslash se doda sam): `eta`, `mu`, `nu`, `xi`, `Xi`, `pi`, `Pi`, `rho`, `tau`, `phi`, `Phi`, `chi`, `psi`, `Psi`.
 
