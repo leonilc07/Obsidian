@@ -67,3 +67,20 @@ Nazaj na [[00 Kazalo|Kazalo]]. Prej: [[04 Latex Suite - osnove|osnove]]. Naprej:
 | `set` | `\{ \}` | $\{ x \}$ |
 | `RR`, `NN`, `ZZ`, `QQ`, `CC` | `\mathbb{R}` … | $\mathbb{R}$, $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{C}$ |
 | `LL`, `HH` | `\mathcal{L}`, `\mathcal{H}` | $\mathcal{L}$, $\mathcal{H}$ |
+
+## Logika: izjavni vezniki
+
+Večina logičnih znakov nima snippeta, zato kodo vtipkaš v celoti.
+
+| Veznik | Vpiši | Koda | Videz |
+|-|-|-|-|
+| negacija | `\neg` | `\neg p` | $\neg p$ |
+| konjunkcija | `\land` | `p \land q` | $p \land q$ |
+| disjunkcija | `\lor` | `p \lor q` | $p \lor q$ |
+| ekskluzivna disjunkcija | `\veebar` | `p \veebar q` | $p \veebar q$ |
+| ekskluzivna disjunkcija (drug zapis) | `o+` | `p \oplus q` | $p \oplus q$ |
+| implikacija | `=>` | `p \implies q` | $p \implies q$ |
+| ekvivalenca | `\iff` | `p \iff q` | $p \iff q$ |
+
+> [!warning] Pozor
+> Snippeta `and` in `orr` dasta množična znaka $\cap$ in $\cup$, ne logičnih $\land$ in $\lor$.

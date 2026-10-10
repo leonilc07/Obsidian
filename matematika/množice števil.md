@@ -62,22 +62,6 @@ $$
 
 - Seštevanje, odštevanje in množenje celih števil da spet celo število. Deljenje ne vedno: $3 : 2 \notin \mathbb{Z}$.
 - Vsako $a \in \mathbb{Z}$ ima nasprotno število $-a \in \mathbb{Z}$, za katero velja $a + (-a) = 0$.
-- 
-## Realna števila
-
-**Realna števila** so vsa racionalna in vsa iracionalna števila skupaj:
-
-$$
-\mathbb{R} = \mathbb{Q} \cup (\mathbb{R} \setminus \mathbb{Q}), \qquad \mathbb{Q} \cap (\mathbb{R} \setminus \mathbb{Q}) = \emptyset
-$$
-
-Vsako realno število je ali racionalno ali iracionalno, nikoli oboje. Realna števila ustrezajo točkam na številski premici, brez lukenj.
-
-Verigo števil lahko zdaj zaključimo:
-
-$$
-\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}
-$$
 
 ## Racionalna števila
 
@@ -106,6 +90,22 @@ Oznaka $\mathbb{I}$ ni povsod enaka, zato se pogosto piše kar $\mathbb{R} \setm
 - Primeri: $\sqrt{2}$, $\pi$, $e$.
 - Decimalni zapis je neskončen in neperiodičen.
 - Vsota racionalnega in iracionalnega števila je iracionalna. Vsota dveh iracionalnih pa ni nujno iracionalna: $\sqrt{2} + (-\sqrt{2}) = 0$.
+
+## Realna števila
+
+**Realna števila** so vsa racionalna in vsa iracionalna števila skupaj:
+
+$$
+\mathbb{R} = \mathbb{Q} \cup (\mathbb{R} \setminus \mathbb{Q}), \qquad \mathbb{Q} \cap (\mathbb{R} \setminus \mathbb{Q}) = \emptyset
+$$
+
+Vsako realno število je ali racionalno ali iracionalno, nikoli oboje. Realna števila ustrezajo točkam na številski premici, brez lukenj.
+
+Verigo števil lahko zdaj zaključimo:
+
+$$
+\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}
+$$
 
 ## Neskončne decimalke in pretvorba v ulomek
 

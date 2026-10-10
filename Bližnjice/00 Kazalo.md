@@ -13,7 +13,7 @@ Hitra pomoč za **Obsidian**, **Latex Suite** in **Calctex**. Snippeti so privze
 - [[02 Markdown - osnove|Markdown: osnove]]: odstavki, črte, naslovi, poudarki, seznami, citati, okvirji
 - [[03 Markdown - povezave in struktura|Markdown: povezave in struktura]]: povezave, slike, tabele, koda, opombe, oznake, lastnosti
 - [[04 Latex Suite - osnove|Latex Suite: osnove]]: kako deluje, funkcije plugina, vizualni snippeti
-- [[05 Latex Suite - simboli|Latex Suite: simboli]]: grške črke, relacije, puščice, množice
+- [[05 Latex Suite - simboli|Latex Suite: simboli]]: grške črke, relacije, puščice, množice, logika
 - [[06 Latex Suite - formule|Latex Suite: formule]]: potence, ulomki, integrali, matrike, oklepaji
 - [[07 Calctex|Calctex]]: samodejni izračun formul
 - [[08 Moje bližnjice|Moje bližnjice]]: tvoje bližnjice in Git plugin

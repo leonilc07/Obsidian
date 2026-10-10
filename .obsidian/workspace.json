@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c272e3ca5a4fb3a",
+            "id": "7430bb011c3a8a5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uvod v računalništvo/03 UML - diagram primerov uporabe.md",
+                "file": "Bližnjice/05 Latex Suite - simboli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 UML - diagram primerov uporabe"
+              "title": "05 Latex Suite - simboli"
+            }
+          },
+          {
+            "id": "4bf983264ed3ebb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "diskretne strukture/izjave in izjavni vezniki.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "izjave in izjavni vezniki"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,13 +194,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "95ef207f72ad307c",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 364.699951171875
+    "width": 382.2999267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,48 +221,51 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Agent Chat": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3c272e3ca5a4fb3a",
+  "active": "451264c88924f998",
   "lastOpenFiles": [
-    "uvod v računalništvo/04 UML - sekvenčni diagram.md",
-    "uvod v računalništvo/Uvod_v_racunalnistvo_koncna_verzija.pdf",
-    "uvod v računalništvo/diagram-primerov-uporabe.svg",
-    "uvod v računalništvo/05 UML - diagram razredov.md",
-    "uvod v računalništvo/03 UML - diagram primerov uporabe.md",
-    "uvod v računalništvo/02 UML - pregled.md",
-    "uvod v računalništvo/01 Zahteve in uporabniške zgodbe.md",
-    "diskretne strukture/DS glavno.md",
-    "uvod v računalništvo/UML in zahteve/diagram-primerov-uporabe.svg",
-    "uvod v računalništvo/UML in zahteve/02 UML - pregled.md",
-    "uvod v računalništvo/UML in zahteve/05 UML - diagram razredov.md",
-    "uvod v računalništvo/UML in zahteve/04 UML - sekvenčni diagram.md",
-    "uvod v računalništvo/UML in zahteve/03 UML - diagram primerov uporabe.md",
-    "uvod v računalništvo/UML in zahteve/01 Zahteve in uporabniške zgodbe.md",
-    "uvod v računalništvo/UML in zahteve",
-    "UML in zahteve/05 UML - diagram razredov.md",
-    "UML in zahteve/diagram-primerov-uporabe.svg",
-    "UML in zahteve/04 UML - sekvenčni diagram.md",
-    "UML in zahteve/03 UML - diagram primerov uporabe.md",
-    "UML in zahteve/02 UML - pregled.md",
-    "UML in zahteve/01 Zahteve in uporabniške zgodbe.md",
-    "UML in zahteve",
-    "diskretne strukture/predavanje 1.md",
-    "diskretne strukture/matematična indukcija.md",
-    "matematika/množice števil.md",
-    "Bližnjice/00 Kazalo.md",
-    "računalniška arhitektura",
-    "programiranje 1",
-    "uvod v računalništvo/Nepotrjeno 528416.crdownload",
-    "uvod v računalništvo",
-    "Nova mapa",
-    "ReadMe.md",
-    "Bližnjice/04 Latex Suite - osnove.md",
     "Bližnjice/05 Latex Suite - simboli.md",
-    "matematika",
-    "Bližnjice/02 Markdown - osnove.md",
-    "obsidian-bliznjice.md",
-    "Bližnjice"
+    "diskretne strukture/izjave in izjavni vezniki.md",
+    "Bližnjice/sedRLFdh9",
+    "diskretne strukture/DS glavno.md",
+    "računalniška arhitektura/glavno RA.md",
+    "diskretne strukture/matematična indukcija.md",
+    "računalniška arhitektura/nastanek računalnika.md",
+    "copilot/copilot-conversations/agent__tukaj_sem_sedaj_napisal_snov._sedaj_popravi_slogovne_in_razne@20261010_112956.md",
+    "copilot/copilot-conversations",
+    "copilot/skills/copilot-web-search/SKILL.md",
+    "copilot/skills/copilot-web-search/web-search.ps1",
+    "copilot/skills/copilot-web-search/web-search.cmd",
+    "copilot/skills/copilot-web-search/web-search.sh",
+    "copilot/skills/copilot-web-search",
+    "copilot/skills/copilot-web-fetch/SKILL.md",
+    "copilot/skills/copilot-web-fetch/web-fetch.ps1",
+    "copilot/skills/copilot-web-fetch/web-fetch.cmd",
+    "copilot/skills/copilot-web-fetch/web-fetch.sh",
+    "copilot/skills/copilot-web-fetch",
+    "copilot/skills/copilot-read-pdf/SKILL.md",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/openartifacts-publish/SKILL.md",
+    "copilot/skills/openartifacts-publish/themes/research-memo.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
+    "matematika/množice števil.md",
+    "uvod v računalništvo/05 UML - diagram razredov.md",
+    "uvod v računalništvo/diagram-primerov-uporabe.svg",
+    "uvod v računalništvo/UML in zahteve/diagram-primerov-uporabe.svg",
+    "UML in zahteve/diagram-primerov-uporabe.svg"
   ]
 }
