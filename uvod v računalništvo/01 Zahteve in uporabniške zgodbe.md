@@ -36,7 +36,7 @@ Primer: *Kot član knjižnice želim poiskati knjigo po naslovu, da vidim, ali j
 
 ## Od zgodbe do diagrama
 
-Iz zgodbe preberemo gradnike [[03 UML - diagram primerov uporabe|diagrama primerov uporabe]]:
+Iz zgodbe preberemo gradnike [[02 UML - pregled#Diagram primerov uporabe|diagrama primerov uporabe]]:
 
 | Del zgodbe | Postane | Primer |
 |-|-|-|
