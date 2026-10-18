@@ -219,3 +219,30 @@ Primerjava z računanjem: $\land$ se obnaša kot množenje ($\cdot$), $\lor$ kot
 	- $\neg (A \lor B) \sim \neg A \land \neg B$
 	- $\neg (A \land B) \sim \neg A \lor \neg B$
 	- Negacija gre v oklepaj k vsakemu členu, veznik pa se obrne ($\lor \leftrightarrow \land$). Podobno kot minus pred oklepajem zamenja predznake: $-(a + b) = -a - b$. »Ni res, da dežuje ali sneži« pomeni »ne dežuje in ne sneži«.
+8. **Kontrapozicija:** $A \implies B \sim \neg B \implies \neg A$
+	- Če iz $A$ sledi $B$, potem iz tega, da $B$ ne velja, sledi, da tudi $A$ ne velja. »Če dežuje, so ceste mokre« pomeni isto kot »če ceste niso mokre, ne dežuje«.
+9. **Lastnosti 0 in 1:**
+	- $A \implies A \sim 1$
+	- $A \iff A \sim 1$
+	- $A \lor \neg A \sim 1$
+	- $A \land \neg A \sim 0$
+	- Izjava vedno sledi sama iz sebe in je enakovredna sama sebi. Izjava ali njena negacija je vedno resnična, obe hkrati pa nikoli.
+10. **Še lastnosti 0 in 1:**
+	- $A \land 0 \sim 0$
+	- $A \land 1 \sim A$
+	- $A \lor 0 \sim A$
+	- $A \lor 1 \sim 1$
+	- $A \implies 0 \sim \neg A$
+	- $0 \implies A \sim 1$
+	- $A \implies 1 \sim 1$
+	- $1 \implies A \sim A$
+	- Kot pri številih: $a \cdot 0 = 0$, $a \cdot 1 = a$, $a + 0 = a$. Razlika je $A \lor 1 \sim 1$ (»večja od obeh vrednosti« je vedno 1). Iz neresnice sledi karkoli, resnica pa sledi iz česarkoli.
+11. **Lastnosti implikacije:**
+	- $A \implies B \sim \neg A \lor B$
+	- $\neg (A \implies B) \sim A \land \neg B$
+	- Implikacija je neresnična samo, ko je $A$ resnična in $B$ neresnična, zato je njena negacija ravno $A \land \neg B$. Druga zveza sledi iz prve z De Morganom.
+12. **Lastnosti ekvivalence:**
+	- $A \iff B \sim (A \implies B) \land (B \implies A)$
+	- $A \iff B \sim (A \land B) \lor (\neg A \land \neg B)$
+	- $\neg (A \iff B) \sim \neg A \iff B$
+	- Ekvivalenca je implikacija v obe smeri. Resnična je, ko sta obe izjavi resnični ali obe neresnični. Negacija ekvivalence pomeni, da imata različni vrednosti, kar je isto kot $A \veebar B$.

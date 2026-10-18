@@ -9,6 +9,7 @@ učbeniki:
 - [ARM Architecture Reference Manual](https://ucilnica2627.fri.uni-lj.si/pluginfile.php/237917/mod_page/intro/ARM%20Architecture%20Reference%20Manual%20-%20ARMv7%20edition.pdf) - ARMv7 edition
 
 # predavanja
-1. predavanje predavanje 8. 10. 2026: [[nastanek računalnika]]
+1. predavanje 2: [[nastanek računalnika]]
+2. predavanje 3: [[nastanek računalništva 2]]
 # vaje
 po 18.10
