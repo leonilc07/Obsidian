@@ -37,8 +37,14 @@ $x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x-1)(x-2)(x-3)$
 $x_1 = 1,\; x_2 = 2,\; x_3 = 3$
 
 ### Absolutna vrednost
+**Absolutna vrednost $|x|$ je razdalja števila $x$ od $0$ na številski premici.** Razdalja je vedno pozitivna (ali $0$), smer (levo ali desno) ni pomembna:
+$$|3| = 3 \qquad |-3| = 3 \qquad |0| = 0$$
+Tako $3$ kot $-3$ sta $3$ korake oddaljena od $0$, samo na nasprotnih straneh.
+
+Od tod pride tudi "pravilo z minusom". Če je $x$ pozitiven, je razdalja kar $x$. Če je $x$ negativen, mu moramo obrniti predznak, da dobimo pozitivno razdaljo. Zato $-x$, ki je pri negativnem $x$ **pozitivno** število, npr. $x = -3 \Rightarrow -x = -(-3) = 3$:
 $$|x| = \begin{cases} x, & x \geq 0 \\ -x, & x < 0 \end{cases}$$
 
+Splošneje je $|a - b|$ razdalja med številoma $a$ in $b$. Zato je $|x + 1| = |x - (-1)|$ razdalja števila $x$ od $-1$. Primere ločimo pri $x = -1$, ker tam izraz $x + 1$ zamenja predznak:
 $$|x+1| = \begin{cases} x+1, & x \geq -1 \\ -(x+1) = -x-1, & x < -1 \end{cases}$$
 
 **Primer:** $2|x+1| = x+2$

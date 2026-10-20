@@ -110,3 +110,57 @@ Vsak izraz, ki ga sestavimo samo iz $1$, $\implies$ in spremenljivk, je resniče
 - če sta $A$ in $B$ enaka 1, je tudi $A \implies B$ enako $1 \implies 1 = 1$.
 
 Takemu izrazu pravimo, da **ohranja enico**. Zato z $\{1, \implies\}$ ne moremo zapisati izraza, ki je pri vseh spremenljivkah 1 enak 0, npr. $\neg p$ (pri $p = 1$ je $\neg p = 0$) ali konstante $0$. Nabor torej ni poln.
+
+## Ekskluzivna disjunkcija več členov
+**Trditev:** izraz $A = A_1 \veebar A_2 \veebar \dots \veebar A_n$ je pri poljubni postavitvi oklepajev resničen natanko tedaj, ko je **liho mnogo** členov $A_i$ resničnih.
+
+Iz tega sledi, da je $\veebar$ asociativen veznik, saj vrednost izraza ni odvisna od oklepajev.
+
+**Dokaz** z (močno) indukcijo po številu členov $n$.
+
+**Baza:**
+- $n = 1$: $A = A_1$. Izraz je resničen natanko tedaj, ko je $A_1$ resničen, torej ko je resničen en člen (liho mnogo).
+- $n = 2$: $A = A_1 \veebar A_2$. Po definiciji je resničen natanko tedaj, ko je resničen točno eden od členov (liho mnogo).
+
+**Indukcijska predpostavka:** trditev velja za vse izraze z manj kot $n$ členi.
+
+**Korak:** pri poljubni postavitvi oklepajev je zadnji (zunanji) veznik nek $\veebar$, ki izraz razdeli na dva dela:
+
+$$
+A = \underbrace{(A_1 \veebar \dots \veebar A_k)}_{B} \veebar \underbrace{(A_{k+1} \veebar \dots \veebar A_n)}_{C}, \qquad 1 \le k < n
+$$
+
+$B$ in $C$ imata vsak manj kot $n$ členov, zato zanju velja indukcijska predpostavka: $B$ je resničen natanko tedaj, ko je med $A_1, \dots, A_k$ liho mnogo resničnih, in podobno za $C$.
+
+- **Vseh resničnih členov je liho mnogo:** liho število lahko razdelimo samo na liho + sodo, zato ima en del liho mnogo resničnih členov, drugi pa sodo. En od $B$, $C$ je torej resničen, drugi neresničen, zato je $A = B \veebar C$ **resničen**.
+- **Vseh resničnih členov je sodo mnogo:** sodo število razdelimo na liho + liho ali sodo + sodo. Tako sta $B$ in $C$ oba resnična ali oba neresnična, zato je $A = B \veebar C$ **neresničen**.
+
+$A$ je torej resničen natanko tedaj, ko je liho mnogo členov resničnih. $\blacksquare$
+
+## Ekvivalenca več členov
+**Trditev:** izraz $A = A_1 \iff A_2 \iff \dots \iff A_n$ je pri poljubni postavitvi oklepajev resničen natanko tedaj, ko je **sodo mnogo** členov $A_i$ **lažnih**.
+
+Iz tega sledi, da je tudi $\iff$ asociativen veznik.
+
+**Dokaz** z (močno) indukcijo po številu členov $n$.
+
+**Baza:**
+- $n = 1$: $A = A_1$. Izraz je resničen natanko tedaj, ko je $A_1$ resničen, torej ko je lažnih $0$ členov (sodo mnogo).
+- $n = 2$: $A = A_1 \iff A_2$. Resničen je natanko tedaj, ko imata člena enako vrednost, torej ko sta lažna $0$ ali $2$ (sodo mnogo).
+
+**Indukcijska predpostavka:** trditev velja za vse izraze z manj kot $n$ členi.
+
+**Korak:** zadnji (zunanji) veznik izraz razdeli na dva dela:
+
+$$
+A = \underbrace{(A_1 \iff \dots \iff A_k)}_{B} \iff \underbrace{(A_{k+1} \iff \dots \iff A_n)}_{C}, \qquad 1 \le k < n
+$$
+
+Za $B$ in $C$ velja indukcijska predpostavka: vsak je resničen natanko tedaj, ko je med njegovimi členi sodo mnogo lažnih.
+
+- **Vseh lažnih členov je sodo mnogo:** razdelimo jih na sodo + sodo ali liho + liho. Tako sta $B$ in $C$ oba resnična ali oba lažna, zato je $A = B \iff C$ **resničen**.
+- **Vseh lažnih členov je liho mnogo:** razdelimo jih na sodo + liho, zato je en od $B$, $C$ resničen, drugi pa lažen. Tako je $A = B \iff C$ **lažen**.
+
+$A$ je torej resničen natanko tedaj, ko je sodo mnogo členov lažnih. $\blacksquare$
+
+**Opomba:** do istega rezultata pridemo tudi brez nove indukcije, ker je $A \iff B \sim \neg(A \veebar B) \sim \neg A \veebar B$. Če vse člene negiramo, postanejo lažni členi resnični, zato lahko uporabimo trditev za $\veebar$.

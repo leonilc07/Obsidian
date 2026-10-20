@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "računalniška arhitektura/nastanek računalništva 2.md",
+                "file": "matematika/enacbe procenti abslutna.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nastanek računalništva 2"
+              "title": "enacbe procenti abslutna"
+            }
+          },
+          {
+            "id": "775f027642232576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kompleksna števila.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kompleksna števila"
             }
           },
           {
@@ -35,7 +49,8 @@
               "title": "05 Latex Suite - simboli"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.2999267578125
+    "width": 491.9000244140625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,51 +243,51 @@
   },
   "active": "451264c88924f998",
   "lastOpenFiles": [
-    "računalniška arhitektura/nastanek računalništva 2.md.tmp.13324.52bf455f58c9",
+    "sedsUV8OY",
+    "sed6b2o61",
+    "sedNrprN3",
+    "sedwd0zZZ",
+    "Bližnjice/05 Latex Suite - simboli.md",
+    "Untitled 1.md",
+    "kompleksna števila.md",
+    "kompleksna števila.md.tmp.12496.adb0a7b36aa5",
+    "matematika/enacbe procenti abslutna.md",
+    "sedNIiars",
+    "sedzJ4oDM",
+    "sedmh1vnu",
+    "matematika/Gavno M.md",
+    "kompleksna števila.md.tmp.4784.b7d856155ce6",
+    "kompleksna števila.md.tmp.8892.af9db5163a9a",
+    "Untitled.md",
+    "kompleksna števila.md.tmp.12212.40dc8779189c",
     "copilot/copilot-conversations/attachments/copilot-image-f094aa9547f83aac513d2bd36f1688ffff3603c2971ffa142a84731ce2a51ac1.png",
+    "copilot/copilot-conversations/attachments/copilot-image-d77c90db9193e23296d0eb92c42f4421f001de505e39d544f4742362381ba685.png",
+    "copilot/copilot-conversations/attachments/copilot-image-cf30221f88bc55bc528fb3fa12840ebdb472dc7c61f959dfd5f2381ed04aba5d.png",
     "copilot/copilot-conversations/attachments/copilot-image-86f9d083fd333c18d452fc5712614c172ebe1106a8f34a25bfdeac7e2c2b43c3.png",
+    "copilot/copilot-conversations/attachments/copilot-image-48a420f0be13782b79ce444d3d57c58bdd85adf0d57e11851f0f368e9f90ad0d.png",
+    "copilot/copilot-conversations/attachments/copilot-image-328b40601f538e586638d05670218830330c1d2f528e6be72be9691c1d366076.png",
+    "copilot/copilot-conversations/attachments/copilot-image-14a95bab7c3dc6d4583d1d89b0a676bf2079327e1954f42e20c55d0b7ce5c805.png",
+    "stvari/copilot-image-86f9d083fd333c18d452fc5712614c172ebe1106a8f34a25bfdeac7e2c2b43c3.png",
+    "stvari/copilot-image-cf30221f88bc55bc528fb3fa12840ebdb472dc7c61f959dfd5f2381ed04aba5d.png",
+    "stvari/copilot-image-d77c90db9193e23296d0eb92c42f4421f001de505e39d544f4742362381ba685.png",
+    "matematika/množice števil.md",
+    "copilot/copilot-conversations/agent__ali_lahko_vse_slike_premakneš_v_mapo_stvari_da_nebo@20261020_101442.md",
+    "diskretne strukture/2 predavanje.md",
+    "diskretne strukture/DS glavno.md",
+    "diskretne strukture/izjave in izjavni vezniki.md",
+    "diskretne strukture/matematična indukcija.md",
+    "Strojni ukazi.md",
+    "copilot/copilot-conversations/agent__sem_prepiši_to_tabelo@20261019_113645.md",
+    "računalniška arhitektura/nastanek računalništva 2.md",
     "copilot/copilot-conversations/agent__uredi_kar_še_ni_urejeno_v_tej_datoteki_do_tukaj@20261018_151440.md",
     "računalniška arhitektura/glavno RA.md",
-    "diskretne strukture/2 predavanje.md",
-    "Bližnjice/05 Latex Suite - simboli.md",
-    "diskretne strukture/matematična indukcija.md",
-    "diskretne strukture/izjave in izjavni vezniki.md",
     "copilot/copilot-conversations/agent__daj_še_ostale_sem_noter@20261016_102124.md",
-    "copilot/copilot-conversations/attachments/copilot-image-48a420f0be13782b79ce444d3d57c58bdd85adf0d57e11851f0f368e9f90ad0d.png",
-    "diskretne strukture/DS glavno.md",
-    "računalniška arhitektura/nastanek računalništva 2.md",
-    "računalniška arhitektura/nastanek računalništva 2.md.tmp.35528.8f4fac62d06a",
-    "Untitled.md",
-    "računalniška arhitektura/nastanek računalništva 2.md.tmp.30256.811275f55afd",
     "računalniška arhitektura/nastanek računalnika.md",
-    "matematika/enacbe procenti abslutna.md",
-    "matematika/sinx_vecje_pol.svg",
-    "matematika/enacbe procenti abslutna.md.tmp.316.92d985ce989b",
-    "matematika/Gavno M.md",
     "uvod v računalništvo/racualniska arhitektura.md",
-    "stvari/Pasted image 20261014203141.png",
-    "sed5G1TRB",
-    "sedUMLZAa",
-    "racualniska arhitektura.md.tmp.21752.a98c1a631af6",
     "copilot/copilot-conversations/agent__tukaj_reši_to_nalogo_1_nekaj_sem_jo_že_začel.@20261014_202027.md",
-    "copilot/copilot-conversations/attachments/copilot-image-cf30221f88bc55bc528fb3fa12840ebdb472dc7c61f959dfd5f2381ed04aba5d.png",
-    "copilot/copilot-conversations/attachments",
-    "stvari/Pasted image 20261014201733.png",
-    "stvari/Pasted image 20261014201710.png",
-    "uvod v računalništvo/Vaje 2.pdf",
     "uvod v računalništvo/Glavno UR.md",
     "ReadMe.md",
-    "uvod v računalništvo/Uvod_v_racunalnistvo_koncna_verzija.pdf",
-    "uvod v računalništvo/diagram-primerov-uporabe.svg",
     "uvod v računalništvo/01 Zahteve in uporabniške zgodbe.md",
-    "uvod v računalništvo/02 UML - pregled.md",
-    "uvod v računalništvo/03 UML - diagram primerov uporabe.md",
-    "uvod v računalništvo/05 UML - diagram razredov.md",
-    "copilot/copilot-conversations/agent__daj_UMl_3,_4_in_5_v_2@20261014_174620.md",
-    "uvod v računalništvo/04 UML - sekvenčni diagram.md",
-    "Bližnjice/sedRLFdh9",
-    "copilot/copilot-conversations/agent__tukaj_sem_sedaj_napisal_snov._sedaj_popravi_slogovne_in_razne@20261010_112956.md",
-    "copilot/skills/copilot-web-search/SKILL.md",
-    "uvod v računalništvo/UML in zahteve/diagram-primerov-uporabe.svg"
+    "uvod v računalništvo/02 UML - pregled.md"
   ]
 }
