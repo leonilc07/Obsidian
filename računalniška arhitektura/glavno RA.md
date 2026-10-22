@@ -11,5 +11,6 @@ učbeniki:
 # predavanja
 1. predavanje 2: [[nastanek računalnika]]
 2. predavanje 3: [[nastanek računalništva 2]]
+3. predavanje 4: [[zapis realnih števil]]
 # vaje
 po 18.10

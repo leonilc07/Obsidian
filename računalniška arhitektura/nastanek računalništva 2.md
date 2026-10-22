@@ -152,6 +152,7 @@ Kako bitnemu zapisu dodati predznak (+, −)?
 
 	- Dobimo `110` → $-1$, kar je pravilno.
 	- **Rešitev:** če negativna števila na krožnici zamaknemo za eno mesto (`111` = $-1$, `110` = $-2$, `101` = $-3$, `100` = $-4$), se znebimo dvojne ničle → dvojiški komplement.
+	- **Prednost:** omogoča preprost prehod iz pozitivnega v negativno število (in obratno) v dvojiškem komplementu – negiramo vse bite in prištejemo 1. Primer: $+3 = 011 \rightarrow 100 + 1 = 101 = -3$.
 4. **Dvojiški komplement:** ($n = 3$)
 
 	```
