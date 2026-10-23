@@ -30,7 +30,7 @@ Formule sem prepisal s slike. Vsak zakon ima tako kot zakoni 1–7 kratko razlag
 **user**: napiši to rešitev v tabeli, 1 vrstica = 1 enka
 [Timestamp: 2026/10/16 14:04:50]
 
-**ai**: V [[2 predavanje]] sem pod tvoj stavek o rešitvi 1 dodal tabelo. Vsaka vrstica je ena enka iz pravilnostne tabele, skupaj jih je 5:
+**ai**: V [[reševanje izjav in nabori]] sem pod tvoj stavek o rešitvi 1 dodal tabelo. Vsaka vrstica je ena enka iz pravilnostne tabele, skupaj jih je 5:
 
 - spremenljivka z vrednostjo 1 je v konjunkciji zapisana kot $p$
 - spremenljivka z vrednostjo 0 je zapisana kot $\neg p$
@@ -41,7 +41,7 @@ Pod tabelo je še celoten $A_{DNO}$, kjer so vse konjunkcije združene z disjunk
 **user**: dobro in še slovnino popravi
 [Timestamp: 2026/10/16 14:05:21]
 
-**ai**: Popravil sem slovnico v [[2 predavanje]]:
+**ai**: Popravil sem slovnico v [[reševanje izjav in nabori]]:
 
 - **Tipkarske napake:** enakovredns → enakovredna, pravilnistna → pravilnostna, primir → Primer, konjukcija → konjunkcija.
 - **Vejice:** dodal sem jih pred »da« in »kjer«.
@@ -57,7 +57,7 @@ Spremenil sem tudi vsebino enega stavka. Prej je pisalo »kjer je rešitev 1«, 
 **user**: naredi še za rešitev dva kjer uzameš 0 in narediš konjuktivno normalno obliko
 [Timestamp: 2026/10/16 14:06:38]
 
-**ai**: V [[2 predavanje]] sem pod DNO dodal še rešitev 2, konjunktivno normalno obliko (KNO). Tabela ima 3 vrstice, ena za vsako ničlo (000, 010, 110):
+**ai**: V [[reševanje izjav in nabori]] sem pod DNO dodal še rešitev 2, konjunktivno normalno obliko (KNO). Tabela ima 3 vrstice, ena za vsako ničlo (000, 010, 110):
 
 - spremenljivka z vrednostjo 0 je v disjunkciji zapisana kot $p$
 - spremenljivka z vrednostjo 1 je negirana ($\neg p$)
@@ -72,7 +72,7 @@ $A_{KNO} = (p \lor q \lor r) \land (p \lor \neg q \lor r) \land (\neg p \lor \ne
 ta retultat.  in povej da če okrajšaš dno dobiš isto. nato ta rezultat okrajšaj v p implements q implements r
 [Timestamp: 2026/10/16 14:09:28]
 
-**ai**: V [[2 predavanje]] sem pod KNO dodal poenostavitev v dveh delih.
+**ai**: V [[reševanje izjav in nabori]] sem pod KNO dodal poenostavitev v dveh delih.
 
 1. **Okrajšava KNO:** prvi dve disjunkciji se razlikujeta samo v $q$ in $\neg q$, zato se združita v $p \lor r$. Z distributivnostjo nato dobimo $p \land \neg q \lor r$. Ob vsakem koraku je napisan zakon, ki se uporabi. Tvoj zapis $\neg g$ sem popravil v $\neg q$.
 2. **Pretvorba v implikacije:** $p \land \neg q \lor r \sim \neg(p \implies q) \lor r \sim (p \implies q) \implies r \sim p \implies q \implies r$. Oklepaje na koncu lahko izpustimo, ker se implikacije berejo od leve proti desni.
@@ -83,7 +83,7 @@ Med obe izpeljavi sem dodal še stavek, da poenostavitev DNO da isti rezultat. T
 **user**: to reši
 [Timestamp: 2026/10/16 14:13:13]
 
-**ai**: V [[2 predavanje]] sem dopisal dokaz, da je $\{\neg, \lor\}$ poln nabor:
+**ai**: V [[reševanje izjav in nabori]] sem dopisal dokaz, da je $\{\neg, \lor\}$ poln nabor:
 
 $$A \land B \sim \neg\neg(A \land B) \sim \neg(\neg A \lor \neg B)$$
 
@@ -105,7 +105,7 @@ Pri tem sem popravil še ta del zapiska:
 **user**: ne samo dokaži drugače da je 0, implikacija polni nabor in povej zakaj ni 1, implikacija polni nabor
 [Timestamp: 2026/10/16 14:15:59]
 
-**ai**: V [[2 predavanje]] sem pod dokaz za $\{\neg, \lor\}$ dodal dva nova razdelka.
+**ai**: V [[reševanje izjav in nabori]] sem pod dokaz za $\{\neg, \lor\}$ dodal dva nova razdelka.
 
 **$\{0, \implies\}$ je poln nabor.** Za izhodišče vzamemo poln nabor $\{\neg, \lor\}$ in oba veznika zapišemo samo z $0$ in $\implies$:
 - $\neg A \sim A \implies 0$

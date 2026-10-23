@@ -62,7 +62,7 @@ $$\neg q \lor p \sim p \lor \neg q \sim q \implies p$$
 <!-- /copilot-image -->
 [Timestamp: 2026/10/19 16:11:17]
 
-**ai**: Na konec [[2 predavanje]] sem dodal razdelek **Ekskluzivna disjunkcija več členov**, v katerem je zapisana trditev, na katero se sklicuje naloga, in tvoj dokaz.
+**ai**: Na konec [[reševanje izjav in nabori]] sem dodal razdelek **Ekskluzivna disjunkcija več členov**, v katerem je zapisana trditev, na katero se sklicuje naloga, in tvoj dokaz.
 
 **Trditev:** $A_1 \veebar A_2 \veebar \dots \veebar A_n$ je pri poljubni postavitvi oklepajev resničen natanko tedaj, ko je liho mnogo členov resničnih. Iz tega sledi, da je $\veebar$ asociativen.
 
@@ -85,7 +85,7 @@ Dodal sem eno pojasnilo: $B$ in $C$ dobimo tako, da izraz razdelimo pri zadnjem 
 
 **ai**: Odgovor, ki si ga izbral, je pravilen: izraz $A_1 \iff A_2 \iff \dots \iff A_n$ je resničen natanko tedaj, ko je **sodo mnogo členov lažnih**.
 
-Rešitev sem dodal v [[2 predavanje]] kot nov razdelek **Ekvivalenca več členov**, takoj pod dokazom za ekskluzivno disjunkcijo. Dokaz gre po istem postopku kot tisti za $\veebar$:
+Rešitev sem dodal v [[reševanje izjav in nabori]] kot nov razdelek **Ekvivalenca več členov**, takoj pod dokazom za ekskluzivno disjunkcijo. Dokaz gre po istem postopku kot tisti za $\veebar$:
 
 - **Baza:**
   - Pri $n = 1$ je izraz resničen, ko je lažnih 0 členov.

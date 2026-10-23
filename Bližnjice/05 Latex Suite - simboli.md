@@ -55,18 +55,18 @@ Nazaj na [[00 Kazalo|Kazalo]]. Prej: [[04 Latex Suite - osnove|osnove]]. Naprej:
 
 ## Množice in številski sistemi
 
-| Vpiši | Koda | Videz |
-|-|-|-|
-| `inn` | `\in` | $\in$ |
-| `notin` | `\not\in` | $\not\in$ |
-| `and` | `\cap` (samostojna beseda) | $\cap$ |
-| `orr` | `\cup` | $\cup$ |
-| `\\\` | `\setminus` | $\setminus$ |
-| `sub=`, `sup=` | `\subseteq`, `\supseteq` | $\subseteq$, $\supseteq$ |
-| `eset` | `\emptyset` | $\emptyset$ |
-| `set` | `\{ \}` | $\{ x \}$ |
-| `RR`, `NN`, `ZZ`, `QQ`, `CC` | `\mathbb{R}` … | $\mathbb{R}$, $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{C}$ |
-| `LL`, `HH` | `\mathcal{L}`, `\mathcal{H}` | $\mathcal{L}$, $\mathcal{H}$ |
+| Vpiši                        | Koda                         | Videz                                                                |
+| ---------------------------- | ---------------------------- | -------------------------------------------------------------------- |
+| `inn`                        | `\in`                        | $\in$                                                                |
+| `notin`                      | `\not\in`                    | $\not\in$                                                            |
+| `and`                        | `\cap` (samostojna beseda)   | $\cap$                                                               |
+| `orr`                        | `\cup`                       | $\cup$                                                               |
+| `\\\`                        | `\setminus`                  | $\setminus$                                                          |
+| `sub=`, `sup=`               | `\subseteq`, `\supseteq`     | $\subseteq$, $\supseteq$                                             |
+| `eset`                       | `\emptyset`                  | $\emptyset$                                                          |
+| `set`                        | `\{ \}`                      | $\{ x \}$                                                            |
+| `RR`, `NN`, `ZZ`, `QQ`, `CC` | `\mathbb{R}` …               | $\mathbb{R}$, $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{C}$ |
+| `LL`, `HH`                   | `\mathcal{L}`, `\mathcal{H}` | $\mathcal{L}$, $\mathcal{H}$                                         |
 
 ## Logika: izjavni vezniki
 
