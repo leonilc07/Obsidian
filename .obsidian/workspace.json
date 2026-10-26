@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uvod v računalništvo/Glavno UR.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glavno UR"
+              "title": "test"
             }
           }
         ]
@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.0999755859375
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,8 +212,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "451264c88924f998",
+  "active": "9040f1cfd3896d40",
   "lastOpenFiles": [
+    "stvari/Ink/Drawing/2026.10.26 - 21.29pm.svg",
+    "stvari/Ink/Drawing",
+    "stvari/Ink",
+    "ReadMe.md",
+    "test.md",
+    "uvod v računalništvo/Glavno UR.md",
     "uvod v računalništvo/binarna števila.md",
     "copilot/copilot-conversations/attachments/copilot-image-bd90afa9db78eabf463e7c7a8e69766d6eeef249054d0dd19dc66bab1a121867.png",
     "copilot/copilot-conversations/attachments/copilot-image-d1707dc71099b0eb494d98281d2b40cbd3593ac396ef4833480a140f949c71ec.png",
@@ -222,7 +228,6 @@
     "copilot/copilot-conversations/attachments/copilot-image-9679ba8ebe8d32fef398dd2f14c991d79a4f916fa97d010615338cd560d6b8cd.png",
     "copilot/copilot-conversations/attachments/copilot-image-65107f484992feb0f8d89d26e2ef83bdf3a071fb8143576331bd91c62f539758.png",
     "copilot/copilot-conversations/attachments/copilot-image-a06cba809e81452659bea3fd6f3baf09de52f6cfd9216d59cae252c43038d1a7.png",
-    "uvod v računalništvo/Glavno UR.md",
     "uvod v računalništvo/racualniska arhitektura.md",
     "diskretne strukture/izjave in izjavni vezniki.md",
     "diskretne strukture/DS glavno.md",
@@ -230,7 +235,6 @@
     "programiranje 1/pyton osnove.md",
     "programiranje 1/pyton indeksi in rezine.md",
     "pyton indeksi in rezine.md.tmp.16568.5f9c6af8d217",
-    "ReadMe.md",
     "pyton osnove.md.tmp.25188.12a145507747",
     "copilot/copilot-conversations/agent__v_to_datoteko_naredi_neko_osnovo_od_pytona_kako_se@20261026_174952.md",
     "matematika/Gavno M.md",
@@ -251,13 +255,10 @@
     "copilot/copilot-conversations/agent__slogovno_olepšaj_to@20261022_145749.md",
     "računalniška arhitektura/nastanek računalnika.md",
     "matematika/enacbe procenti abslutna.md",
-    "Untitled.md",
     "Untitled 1.md",
     "sedsUV8OY",
     "sed6b2o61",
     "sedNrprN3",
-    "sedwd0zZZ",
-    "kompleksna števila.md.tmp.12496.adb0a7b36aa5",
-    "sedNIiars"
+    "sedwd0zZZ"
   ]
 }
