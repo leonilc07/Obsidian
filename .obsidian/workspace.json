@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programiranje 1/glavno programiranje.md",
+                "file": "uvod v računalništvo/Glavno UR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "glavno programiranje"
+              "title": "Glavno UR"
             }
           }
         ]
@@ -214,30 +214,33 @@
   },
   "active": "451264c88924f998",
   "lastOpenFiles": [
+    "uvod v računalništvo/binarna števila.md",
+    "copilot/copilot-conversations/attachments/copilot-image-bd90afa9db78eabf463e7c7a8e69766d6eeef249054d0dd19dc66bab1a121867.png",
+    "copilot/copilot-conversations/attachments/copilot-image-d1707dc71099b0eb494d98281d2b40cbd3593ac396ef4833480a140f949c71ec.png",
+    "copilot/copilot-conversations/attachments/copilot-image-02ffba9288007f7c3522b66e6184211e88d9436f18301df58ec16063ebc98888.png",
+    "copilot/copilot-conversations/attachments/copilot-image-e72d27c784685ff424b6c3e69971e64c3cd947d5ce3209b87cc6896c55bff57d.png",
+    "copilot/copilot-conversations/attachments/copilot-image-9679ba8ebe8d32fef398dd2f14c991d79a4f916fa97d010615338cd560d6b8cd.png",
+    "copilot/copilot-conversations/attachments/copilot-image-65107f484992feb0f8d89d26e2ef83bdf3a071fb8143576331bd91c62f539758.png",
+    "copilot/copilot-conversations/attachments/copilot-image-a06cba809e81452659bea3fd6f3baf09de52f6cfd9216d59cae252c43038d1a7.png",
+    "uvod v računalništvo/Glavno UR.md",
+    "uvod v računalništvo/racualniska arhitektura.md",
+    "diskretne strukture/izjave in izjavni vezniki.md",
+    "diskretne strukture/DS glavno.md",
+    "programiranje 1/glavno programiranje.md",
     "programiranje 1/pyton osnove.md",
     "programiranje 1/pyton indeksi in rezine.md",
     "pyton indeksi in rezine.md.tmp.16568.5f9c6af8d217",
-    "programiranje 1/glavno programiranje.md",
     "ReadMe.md",
     "pyton osnove.md.tmp.25188.12a145507747",
     "copilot/copilot-conversations/agent__v_to_datoteko_naredi_neko_osnovo_od_pytona_kako_se@20261026_174952.md",
     "matematika/Gavno M.md",
     "diskretne strukture/skepi.md",
     "diskretne strukture/matematična indukcija.md",
-    "diskretne strukture/izjave in izjavni vezniki.md",
     "diskretne strukture/področje pogovora in predikati.md",
     "diskretne strukture/reševanje izjav in nabori.md",
     "copilot/copilot-conversations/attachments/copilot-image-cbcb7317a559322be4a45d044a669d3736b37bdf9489815e225622a968828e73.png",
-    "diskretne strukture/DS glavno.md",
     "copilot/copilot-conversations/attachments/copilot-image-17a38a4965e4049ab9e18b1fd0dfe836ad7c91dea6989e872a106ff53d81006f.png",
     "copilot/copilot-conversations/attachments/copilot-image-b86c41ca3db6f000d6114adc36cae7b755bd03ec72974bc35f33aebbf783079c.png",
-    "copilot/copilot-conversations/attachments/copilot-image-67509a392d8f22e9eb7b501704f6ab556279ed8791149bd4548319dd41f09699.png",
-    "copilot/copilot-conversations/attachments/copilot-image-713796cc27be615d65272670b11089e2e000c0906096b884064a7bd25db4644e.png",
-    "copilot/copilot-conversations/attachments/copilot-image-f7258918edf800956cc00504966bf062162a5ba069328bff44fa852da6d6b961.png",
-    "copilot/copilot-conversations/attachments/copilot-image-cda769cb828ebb7e387199680dd836b1a5d710aa84bd1f63dd2cbc9b77580cfd.png",
-    "copilot/copilot-conversations/attachments/copilot-image-9d453880921650badf2b72770eabf7c6b90de263af7498a0c44c2c67b423fefe.png",
-    "copilot/copilot-conversations/attachments/copilot-image-742147d3fad51dce2deb57f8419d0a6f7bb07f590a48973a9ff7199e13c4247d.png",
-    "stvari/Pasted image 20261023084657.png",
     "Bližnjice/05 Latex Suite - simboli.md",
     "diskretne strukture/3. skepi.md.tmp.22968.41ea57aa49e5",
     "copilot/copilot-conversations/agent__dokaži_ali_je_pravilen_ali_nepravilen_(je_nepravilen)@20261023_083142.md",
@@ -250,14 +253,11 @@
     "matematika/enacbe procenti abslutna.md",
     "Untitled.md",
     "Untitled 1.md",
-    "uvod v računalništvo/Strojni ukazi.md",
-    "matematika/kompleksna števila.md",
     "sedsUV8OY",
     "sed6b2o61",
     "sedNrprN3",
     "sedwd0zZZ",
     "kompleksna števila.md.tmp.12496.adb0a7b36aa5",
-    "sedNIiars",
-    "matematika/množice števil.md"
+    "sedNIiars"
   ]
 }

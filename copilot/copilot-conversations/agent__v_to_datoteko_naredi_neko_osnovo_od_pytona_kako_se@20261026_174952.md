@@ -4,7 +4,7 @@ mode: agent
 backendId: claude
 sessionId: "12004afc-0361-44d5-a244-75aab0e3f43c"
 agentLabel: "v to datoteko naredi neko osnovo od pytona kako se kaj obnaš…"
-usage: '{"usedTokens":73041,"contextWindow":1000000,"inputTokens":2,"outputTokens":116,"cacheReadTokens":70725,"cacheWriteTokens":2198,"updatedAt":1793034224719}'
+usage: '{"usedTokens":99428,"contextWindow":1000000,"inputTokens":2,"outputTokens":4,"cacheReadTokens":96061,"cacheWriteTokens":3361,"updatedAt":1793034959172}'
 tags:
   - copilot-conversation
 ---
@@ -137,3 +137,115 @@ Razdelek **kontakt** je ostal prazen, ker v besedilu ni bilo profesorjevega mail
 
 **ai**: Pod kontakt v [[glavno programiranje]] sem dodal profesorja Janeza Demšarja in mail **janez.demsar@fri.uni-lj.si**. Mail sem sestavil po običajni obliki naslovov na FRI, nisem ga preveril, zato ga primerjaj z naslovom na učilnici.
 [Timestamp: 2026/10/26 18:03:38]
+
+**user**: tukaj sedaj daj noter na hitro to in primir računaja in zapisa -predzačenega števila.  to daj na hitro ker smo to use že delali pri drugem predmetu
+
+<!-- copilot-image:a06cba809e81452659bea3fd6f3baf09de52f6cfd9216d59cae252c43038d1a7 -->
+![[copilot-image-a06cba809e81452659bea3fd6f3baf09de52f6cfd9216d59cae252c43038d1a7.png]]
+<!-- /copilot-image -->
+
+<!-- copilot-image:65107f484992feb0f8d89d26e2ef83bdf3a071fb8143576331bd91c62f539758 -->
+![[copilot-image-65107f484992feb0f8d89d26e2ef83bdf3a071fb8143576331bd91c62f539758.png]]
+<!-- /copilot-image -->
+
+<!-- copilot-image:9679ba8ebe8d32fef398dd2f14c991d79a4f916fa97d010615338cd560d6b8cd -->
+![[copilot-image-9679ba8ebe8d32fef398dd2f14c991d79a4f916fa97d010615338cd560d6b8cd.png]]
+<!-- /copilot-image -->
+[Timestamp: 2026/10/26 18:11:43]
+
+**ai**: V [[binarna števila]] sem na kratko zapisal snov z vseh treh slik:
+
+- **Nepredznačena števila**: pretvorbo iz binarnega v desetiško s potencami števila 2, za obratno pretvorbo pa dva načina, razstavljanje na potence in deljenje z 2 (ostanke bereš od spodaj navzgor).
+- **Predznak in velikost**: prvi bit pove predznak (0 pomeni +, 1 pomeni −), primer $010011 = +19$ in $110011 = -19$, ter še en primer, kako zapišeš $-6$.
+
+Na koncu sem v eni vrstici dodal še slabosti tega zapisa: obstajata dve ničli, seštevanje pa ne deluje kar po navadnem postopku.
+[Timestamp: 2026/10/26 18:11:43]
+
+**user**: nato daj noter to in reši to nalogo Kako izgledata predznačeni desetiški vrednosti +6 in -3, če ju zapišemo
+s 4 biti v obliki dvojiškega komplementa?
+
+<!-- copilot-image:e72d27c784685ff424b6c3e69971e64c3cd947d5ce3209b87cc6896c55bff57d -->
+![[copilot-image-e72d27c784685ff424b6c3e69971e64c3cd947d5ce3209b87cc6896c55bff57d.png]]
+<!-- /copilot-image -->
+[Timestamp: 2026/10/26 18:12:14]
+
+**ai**: Rešitev naloge: s 4 biti v dvojiškem komplementu je $+6 = \mathbf{0110}$ in $-3 = \mathbf{1101}$.
+
+- **+6**: pozitivno število pretvoriš normalno, $6 = 4 + 2$, zato $0110$.
+- **−3**: $3 = 0011$, ko invertiraš bite, dobiš $1100$, nato prišteješ 1 in dobiš $1101$.
+- **Preverjanje**: $0011 + 1101 = 10000$, ko odrežeš peti bit, ostane $0000$, kar je pravilno, ker je $3 + (-3) = 0$.
+
+V [[binarna števila]] sem dodal razdelek **Dvojiški komplement**. V njem so postopek s slike, prednosti pred zapisom s predznakom (samo ena ničla, seštevanje deluje normalno), razpon števil za $n$ bitov in vrednosti s kroga za 3 bite. Pod tem je cela rešitev naloge.
+[Timestamp: 2026/10/26 18:12:14]
+
+**user**: še to in reši to nalogo
+
+<!-- copilot-image:02ffba9288007f7c3522b66e6184211e88d9436f18301df58ec16063ebc98888 -->
+![[copilot-image-02ffba9288007f7c3522b66e6184211e88d9436f18301df58ec16063ebc98888.png]]
+<!-- /copilot-image -->
+
+<!-- copilot-image:d1707dc71099b0eb494d98281d2b40cbd3593ac396ef4833480a140f949c71ec -->
+![[copilot-image-d1707dc71099b0eb494d98281d2b40cbd3593ac396ef4833480a140f949c71ec.png]]
+<!-- /copilot-image -->
+[Timestamp: 2026/10/26 18:13:08]
+
+**ai**: Naloga 7 je rešena, pri b) pa se z 10 biti za mantiso izgubi zadnji del števila ($\frac1{16}$). V [[binarna števila]] sem dodal razdelek **Znanstveni zapis**, ki ima postopek s slike (pretvorba, normalizacija, mantisa in eksponent) in primer za 4,75, pod njim pa je rešitev.
+
+**a) +0,25**
+- $0{,}25 = 0{,}01_2 = 0{,}1 \times 2^{-1}$
+- mantisa: $0\,100000000$, eksponent: $1\,00001$ (to je $-1$)
+- **najmanj bitov**: mantisa 2 bita, eksponent 2 bita
+
+**b) $-32\frac{1}{16}$**
+- $32\frac1{16} = 100000{,}0001_2 = 0{,}1000000001 \times 2^6$
+- za vejico je 10 bitov, skupaj s predznakom bi mantisa potrebovala 11 bitov
+- z 10 biti se shrani samo $-32$, mantisa je $1\,100000000$, eksponent pa $0\,00110$
+- **najmanj bitov**: mantisa 11 bitov, eksponent 4 biti
+
+Rešitev sledi zgledu s prosojnice: mantisa je normalizirana kot $0{,}1\ldots$, predznak pa porabi en njen bit. Če ste na predavanjih normalizirali drugače, se lahko najmanjše število bitov malo razlikuje.
+[Timestamp: 2026/10/26 18:13:08]
+
+**user**: nato še to  in povej o vski stvari malo kako shranjuje podatke, na kakšen način. in nato reši te nalogeKakšna je notranja predstavitev niza "X+Y" (brez narekovajev), če se
+uporabi 8-bitna koda ASCII?
+Kakšna pa je v primeru, ko uporabimo 16-bitni UNICODE?
+Kode znakov v tabeli UNICODE lahko najdete na naslovu
+http://unicode-table.com. 
+
+
+
+Koliko bitov je potrebnih za shranjevanje triminutne pesmi, če
+uporabljamo zvočno kodiranje, ki vzorči s frekvenco 40.000 Hz in ima
+bitno globino 16, pri tem pa se stiskanje podatkov ne izvaja?
+Koliko bitov pa potrebujemo, če uporabimo metodo stiskanja s
+stopnjo stiskanja 5:1?Koliko bitov je potrebnih za shranjevanje barvne slike v formatu RGB
+velikosti 1.200 x 800 slikovnih elementov, če se stiskanje podatkov pri
+tem ne izvaja?
+Kakšna pa bi bila stopnja stiskanja, če bi sliko stisnili in bi le-ta zavzela
+2,4 Mb prostora?
+
+<!-- copilot-image:bd90afa9db78eabf463e7c7a8e69766d6eeef249054d0dd19dc66bab1a121867 -->
+![[copilot-image-bd90afa9db78eabf463e7c7a8e69766d6eeef249054d0dd19dc66bab1a121867.png]]
+<!-- /copilot-image -->
+[Timestamp: 2026/10/26 18:15:28]
+
+**ai**: Vse tri naloge so rešene. V [[binarna števila]] sem dodal razdelek **Shranjevanje drugih podatkov**, ki na kratko opiše, kako se shranjujejo besedilo, zvok in slika ter kaj je stiskanje. Pod njim so rešitve.
+
+**Kako se kaj shranjuje**
+- **Besedilo**: vsak znak ima svojo kodo. ASCII ima 7 ali 8 bitov, Unicode pa pokrije znake vseh jezikov in ima prvih 128 kod enakih kot ASCII.
+- **Zvok**: v rednih presledkih izmerimo jakost valovanja. Velikost je čas × frekvenca vzorčenja × bitna globina.
+- **Slika**: mreža pik, pri RGB ima vsaka pika 24 bitov. Velikost je širina × višina × biti na piko.
+
+**Niz "X+Y"** (kode X = 88, + = 43, Y = 89)
+- 8-bitni ASCII: `01011000 00101011 01011001`, skupaj 24 bitov
+- 16-bitni Unicode: pred vsak znak dodaš 8 ničel, zato je skupaj 48 bitov
+
+**Triminutna pesem**
+- brez stiskanja: $180 \cdot 40\,000 \cdot 16 = 115\,200\,000$ bitov
+- s stiskanjem 5:1: $23\,040\,000$ bitov
+
+**RGB slika 1200 × 800**
+- brez stiskanja: $1200 \cdot 800 \cdot 24 = 23\,040\,000$ bitov
+- stisnjena na 2,4 Mb: stopnja stiskanja je **9,6 : 1**
+
+Pri zadnji nalogi sem vzel, da je 1 Mb = 1 000 000 bitov. Če ste na predavanjih računali z 1 Mb = $2^{20}$ bitov, je stopnja stiskanja približno 9,15 : 1.
+[Timestamp: 2026/10/26 18:15:28]
