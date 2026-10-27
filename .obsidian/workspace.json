@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "matematika/kompleksna števila.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "kompleksna števila"
             }
           }
         ]
@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 689.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,13 +212,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9040f1cfd3896d40",
+  "active": "451264c88924f998",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/agent__sedaj_je_treba_dodati_na_to_datoteko_nekaj_stvari_o@20261027_100015.md",
+    "test.md",
     "stvari/Ink/Drawing/2026.10.26 - 21.29pm.svg",
     "stvari/Ink/Drawing",
     "stvari/Ink",
     "ReadMe.md",
-    "test.md",
     "uvod v računalništvo/Glavno UR.md",
     "uvod v računalništvo/binarna števila.md",
     "copilot/copilot-conversations/attachments/copilot-image-bd90afa9db78eabf463e7c7a8e69766d6eeef249054d0dd19dc66bab1a121867.png",
@@ -244,7 +245,6 @@
     "diskretne strukture/reševanje izjav in nabori.md",
     "copilot/copilot-conversations/attachments/copilot-image-cbcb7317a559322be4a45d044a669d3736b37bdf9489815e225622a968828e73.png",
     "copilot/copilot-conversations/attachments/copilot-image-17a38a4965e4049ab9e18b1fd0dfe836ad7c91dea6989e872a106ff53d81006f.png",
-    "copilot/copilot-conversations/attachments/copilot-image-b86c41ca3db6f000d6114adc36cae7b755bd03ec72974bc35f33aebbf783079c.png",
     "Bližnjice/05 Latex Suite - simboli.md",
     "diskretne strukture/3. skepi.md.tmp.22968.41ea57aa49e5",
     "copilot/copilot-conversations/agent__dokaži_ali_je_pravilen_ali_nepravilen_(je_nepravilen)@20261023_083142.md",
