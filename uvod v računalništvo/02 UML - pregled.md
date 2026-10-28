@@ -65,7 +65,7 @@ Poenostavljena pot od ideje do kode: zahteve → uporabniške zgodbe → diagram
 
 ### Skica: knjižnica
 
-![Diagram primerov uporabe: knjižnica](../stvari/diagram-primerov-uporabe.svg)
+![Diagram primerov uporabe: knjižnica](diagram-primerov-uporabe.svg)
 
 Član išče, izposoja in vrača knjige. Knjižničar sprejme vrnitev in dodaja knjige.
 
