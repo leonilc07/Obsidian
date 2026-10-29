@@ -6,5 +6,6 @@
   "table-editor-obsidian",
   "obsidian-desmos",
   "obsidian-excalidraw-plugin",
-  "ink"
+  "ink",
+  "shiki-highlighter"
 ]

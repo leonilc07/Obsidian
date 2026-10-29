@@ -14,3 +14,4 @@ mail: janez.demsar@fri.uni-lj.si
 # predavanja
 1 teden: [[pyton osnove]]
 3 teden: [[pyton indeksi in rezine]]
+4 teden: [[funkcije, moduli]]
