@@ -164,3 +164,26 @@ Ožji pas pomeni večji $N$.
 - $a_n = 7$: limita je $7$, saj je $|7 - 7| = 0 < \varepsilon$ za vse $n$ ($N = 1$). Členi so lahko tudi točno enaki $L$.
 - $a_n = \frac{n-1}{n+1}$: limita je $1$. Velja $|\frac{n-1}{n+1} - 1| = \frac{2}{n+1} < \varepsilon \iff n > \frac2\varepsilon - 1$, torej za $N$ vzamemo naravno število, večje od $\frac2\varepsilon - 1$.
 - $a_n = 2n$: nima limite (divergentno), ker členi rastejo čez vse meje in ne ostanejo v nobenem pasu.
+
+## Razlika med stekališčem in limito
+
+Pri obeh vzamemo pas $(s-\varepsilon, s+\varepsilon)$ za vsak $\varepsilon > 0$. Razlika je v tem, **koliko členov** mora biti v pasu:
+
+- **Stekališče:** v pasu je **neskončno mnogo** členov. Zunaj pasu jih je lahko tudi neskončno mnogo.
+- **Limita:** v pasu so **vsi členi od nekega $N$ naprej**. Zunaj pasu jih je lahko le **končno mnogo** (tisti pred $N$).
+
+Formalno se razlikujeta samo v enem kvantifikatorju:
+
+- Stekališče: $\forall \varepsilon > 0\ \forall n_0 \in \mathbb{N}\ \exists n \ge n_0: |a_n - s| < \varepsilon$ (vedno najdeš **še kak** člen v pasu)
+- Limita: $\forall \varepsilon > 0\ \exists N \in \mathbb{N}\ \forall n \ge N: |a_n - L| < \varepsilon$ (od $N$ naprej so **vsi** členi v pasu)
+
+Limita je torej strožji pogoj:
+
+- Vsaka limita je tudi stekališče.
+- Če ima zaporedje limito, je to njegovo **edino** stekališče.
+- Stekališče ni nujno limita.
+
+**Primeri:**
+- $a_n = \frac1n$: stekališče $0$ in limita $0$
+- $a_n = (-1)^n$: stekališči $-1$ in $1$, limite **ni**. V pasu okoli $1$ je sicer neskončno mnogo členov (sodi), a neskončno mnogo jih je tudi zunaj (lihi), zato $1$ ni limita. Enako velja za $-1$.
+- $0, 1, 0, 2, 0, 3, \dots$ (na sodih mestih $0$, na lihih $1, 2, 3, \dots$): edino stekališče je $0$, limite pa ni, ker lihi členi pobegnejo v neskončnost. Eno samo stekališče še ne pomeni limite.

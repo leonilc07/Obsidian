@@ -1,36 +1,37 @@
 ---
-epoch: 1793200121038
+epoch: 1793200123261
 mode: agent
 backendId: claude
 sessionId: "f169dcb7-c92f-4615-999f-e55a58d0b968"
 agentLabel: "naredi za zaporedja manjši uvod. kaj je to akplicidno in kaj…"
-usage: '{"usedTokens":104851,"contextWindow":1000000,"inputTokens":2,"outputTokens":3,"cacheReadTokens":104224,"cacheWriteTokens":622,"updatedAt":1793217660514}'
+lastAccessedAt: 1793268617412
+usage: '{"usedTokens":109368,"contextWindow":1000000,"inputTokens":2,"outputTokens":3,"cacheReadTokens":105967,"cacheWriteTokens":3396,"updatedAt":1793268671350}'
 tags:
   - copilot-conversation
 ---
 
 **user**: naredi za zaporedja manjši uvod. kaj je to akplicidno in kaj rekurzivno in napiši (n-1)/(n+1) kot oboje
-[Timestamp: 2026/10/28 16:08:41]
+[Timestamp: 2026/10/28 16:08:43]
 
 **ai**: V [[zaporedja]] sem dodal kratek uvod in zaporedje $\frac{n-1}{n+1}$, zapisano na oba načina:
 
 - **Uvod:** kaj je zaporedje, kaj pomeni eksplicitni zapis (formula, odvisna samo od $n$) in kaj rekurzivni (začetni člen in pravilo za naslednji člen).
 - **Eksplicitno:** $a_n = \frac{n-1}{n+1}$
 - **Rekurzivno:** $a_1 = 0,\ a_{n+1} = \frac{1+a_n}{3-a_n}$. V zapisku je tudi izpeljava (iz $a_n$ izraziš $n$ in ga vstaviš v $a_{n+1}$) ter preverba prvih treh členov.
-[Timestamp: 2026/10/28 16:08:41]
+[Timestamp: 2026/10/28 16:08:46]
 
 **user**: aritmetično zaporedje, geometrjisko zaporedje, vibbonacijevo, za te tri samo daj eks in rek napisa in dva primira zaporedja nič več. na kratko
-[Timestamp: 2026/10/28 20:23:49]
+[Timestamp: 2026/10/28 20:23:50]
 
 **ai**: I added the three sequences to the end of [[zaporedja]], each with its explicit formula, recursive formula and two examples:
 
 - **Aritmetično:** $a_n = a_1 + (n-1)d$ in $a_{n+1} = a_n + d$
 - **Geometrijsko:** $a_n = a_1 q^{n-1}$ in $a_{n+1} = a_n q$
 - **Fibonaccijevo:** eksplicitno z Binetovo formulo, rekurzivno $F_{n+2} = F_{n+1} + F_n$ (začetek $F_1 = F_2 = 1$)
-[Timestamp: 2026/10/28 20:23:49]
+[Timestamp: 2026/10/28 20:23:57]
 
 **user**: lastnosti: naraščujoča/padajoča in strogo naraščujoča/padajoča. zavsako an <= an+1, narobe obrnjen An vsebuje N
-[Timestamp: 2026/10/28 20:25:22]
+[Timestamp: 2026/10/28 20:25:23]
 
 **ai**: Na konec [[zaporedja]] sem dodal razdelek **Lastnosti: monotonost**. Pogoji so zapisani s $\forall$ in $\in$:
 
@@ -38,10 +39,10 @@ tags:
 - **Strogo naraščajoče:** $\forall n \in \mathbb{N}: a_n < a_{n+1}$
 - **Padajoče:** $\forall n \in \mathbb{N}: a_n \ge a_{n+1}$
 - **Strogo padajoče:** $\forall n \in \mathbb{N}: a_n > a_{n+1}$
-[Timestamp: 2026/10/28 20:25:22]
+[Timestamp: 2026/10/28 20:25:28]
 
 **user**: in dva primira za vsako
-[Timestamp: 2026/10/28 20:25:57]
+[Timestamp: 2026/10/28 20:25:58]
 
 **ai**: Backslashes got eaten; rewrite lines with Python-free approach: heredoc replacement.V [[zaporedja]] sem k vsaki lastnosti dodal dva primera:
 
@@ -51,16 +52,16 @@ tags:
 - **Strogo padajoče:** $a_n = \frac1n$ in $a_n = -n$
 
 Pri naraščajočih in padajočih sem izbral primere z enakimi zaporednimi členi. Tako se vidi razlika do strogih: tam je dovoljen enak naslednji člen. Konstantno zaporedje je hkrati naraščajoče in padajoče.
-[Timestamp: 2026/10/28 20:25:57]
+[Timestamp: 2026/10/28 20:26:03]
 
 **user**: ne dati eksplicidne formule pri fibinacijem
-[Timestamp: 2026/10/28 20:27:04]
+[Timestamp: 2026/10/28 20:27:05]
 
 **ai**: V [[zaporedja]] sem pri Fibonaccijevem zaporedju odstranil eksplicitno (Binetovo) formulo. Ostala sta rekurzivni zapis in dva primera.
-[Timestamp: 2026/10/28 20:27:04]
+[Timestamp: 2026/10/28 20:27:13]
 
 **user**: azvgor omejeno zaporedje.  obstaja M vsebuje R tako da vsak n € N. an <= M in an < M+1
-[Timestamp: 2026/10/28 20:29:05]
+[Timestamp: 2026/10/28 20:29:06]
 
 **ai**: Na konec [[zaporedja]] sem dodal razdelek **Lastnosti: omejenost** z definicijo navzgor omejenega zaporedja:
 
@@ -69,10 +70,10 @@ Pri naraščajočih in padajočih sem izbral primere z enakimi zaporednimi člen
 - **Primera:** $\frac{n-1}{n+1}$ (meja $M = 1$) in $-n$ (meja $M = -1$)
 
 Če si s pogojem $a_n < M+1$ mislil kaj drugega, mi povej in popravim.
-[Timestamp: 2026/10/28 20:29:05]
+[Timestamp: 2026/10/28 20:29:16]
 
 **user**: ša navzdol in še oboje. in daj še malo več razlage
-[Timestamp: 2026/10/28 20:31:11]
+[Timestamp: 2026/10/28 20:31:13]
 
 **ai**: V [[zaporedja]] sem razdelek o omejenosti razširil na tri dele in vsakemu dodal več razlage:
 
@@ -81,10 +82,10 @@ Pri naraščajočih in padajočih sem izbral primere z enakimi zaporednimi člen
 - **Omejeno:** obe meji hkrati, $m \le a_n \le M$, oziroma krajše $|a_n| \le M$. Primera sta $\frac{n-1}{n+1}$ in $(-1)^n$.
 
 Na koncu je še opomba: naraščajoče zaporedje je vedno navzdol omejeno s prvim členom, padajoče pa navzgor.
-[Timestamp: 2026/10/28 20:31:11]
+[Timestamp: 2026/10/28 20:31:27]
 
 **user**: to sedaj sem zastopil use in vem tudi use kar je sedaj pa skališče. jaz sem si to napisal v zvezk: izbereš epsilon in eno vrednost funkcije/zaporedja an in če ta vrednost gre proti epsilonu in ga nikoli ne dotakne(ima neskončno vrednosti) potem je to skališče. in profesor nam je proval razložiti na an = (-1)n - ima 2 skališča,
-[Timestamp: 2026/10/28 20:36:50]
+[Timestamp: 2026/10/28 20:36:52]
 
 **ai**: V [[zaporedja]] sem dodal razdelek **Stekališče** (pravilen izraz je "stekališče", ne "skališče"). Ideja v tvojem zvezku je prava, "neskončno mnogo" je bistvo. Treba pa je popraviti tri stvari:
 
@@ -103,10 +104,10 @@ Na koncu je še opomba: naraščajoče zaporedje je vedno navzdol omejeno s prvi
 Tu se vidi, zakaj del "nikoli se ne dotakne" ne drži: členi so točno $1$ in $-1$, pa sta to stekališči.
 
 V zapisku so še formalni zapis s $\forall$/$\exists$, postopek preverjanja v 4 korakih in dodatni primeri. Med njimi sta $\frac1n$, kjer se členi stekališču res le približujejo, in $2n$, ki stekališča nima.
-[Timestamp: 2026/10/28 20:36:50]
+[Timestamp: 2026/10/28 20:38:02]
 
 **user**: a ni to potem samo isto kot limita? samo da malo boljše ker lahk odobiš tudi vrednosti katerih se funkcija dotakne. ker liimta samo gledaš kateri vredsnoti se funkcija približuje. an ne? dobro to pusti za potem seda jnaredi samo uvod v limite od tukaj naprej. mi smo naredili tako: limita zaporedja je vrednost L tako da obstaja N € Naravna št tak oda za vsak epsilon > 0 velja |an - L| < epsilon     narobe A epsilon >=naravna št.  L je limita če narobe A epsilon > 0 narobe E N € Naravan št |an - L| < epsolon naroe An >= N        potem v novo vrstico an = 1/n     |an - 0 | < epsilon     1/n  < epsilon   N > 1/epsilon          lim(n -> neskončnio) an = L       - tukaj recimo nimam pojma
-[Timestamp: 2026/10/28 20:52:36]
+[Timestamp: 2026/10/28 20:52:38]
 
 **ai**: Na konec [[zaporedja]] sem dodal razdelek **Limita zaporedja**. Vsebuje definicijo, razlago vsakega dela, pomen zapisa $\lim\limits_{n\to\infty}$ in primer $\frac1n$ korak za korakom.
 
@@ -122,14 +123,29 @@ Najprej izbereš $\varepsilon$, šele potem iščeš $N$, ker je $N$ odvisen od 
 - Za $\varepsilon = 0{,}1$ je $N = 11$: od $a_{11}$ naprej so vsi členi manjši od $0{,}1$. Ožji kot je pas, večji mora biti $N$.
 
 Primerjavo s stekališčem pustiva za kasneje. Že zdaj pa velja: tudi pri limiti so členi lahko točno enaki $L$, npr. $a_n = 7$ ima limito $7$. Razlika med pojmoma torej ni v tem.
-[Timestamp: 2026/10/28 20:52:36]
+[Timestamp: 2026/10/28 20:53:51]
 
 **user**: tage ti nisem nikoli napisal
-[Timestamp: 2026/10/28 21:00:24]
+[Timestamp: 2026/10/28 21:00:25]
 
 **ai**: Prav imaš, $\exists N\ \forall \varepsilon$ nisi nikoli napisal. Ta odstavek sem iz [[zaporedja]] odstranil.
 
 Dodal sem ga zaradi prvega stavka v tvojem sporočilu: "obstaja N € Naravna št, tako da za vsak epsilon > 0". To sem narobe prebral kot napako v vrstnem redu, čeprav je bil le hiter opis. Tvoj formalni zapis $\forall \varepsilon > 0\ \exists N \in \mathbb{N}\ \forall n \ge N: |a_n - L| < \varepsilon$ je pravilen.
 
 V zapisku ostane le stavek, da je $N$ odvisen od $\varepsilon$: ožji kot je pas, večji mora biti $N$.
-[Timestamp: 2026/10/28 21:00:24]
+[Timestamp: 2026/10/28 21:00:49]
+
+**user**: in kaj je razliak med stekališčem in liito
+[Timestamp: 2026/10/29 11:10:40]
+
+**ai**: Razlika je v tem, koliko členov mora biti v pasu okoli števila. Dotikanje ni pomembno, ker so členi pri obeh lahko točno enaki temu številu.
+
+- **Stekališče:** v vsakem pasu je **neskončno mnogo** členov. Zunaj pasu jih je lahko tudi neskončno mnogo.
+- **Limita:** v vsakem pasu so **vsi členi od nekega $N$ naprej**. Zunaj ostane le končno mnogo členov.
+
+Limita je torej strožji pogoj. Vsaka limita je tudi stekališče, obratno pa ne velja. Če ima zaporedje limito, je to njegovo edino stekališče.
+
+**Primer $(-1)^n$:** v pasu okoli $1$ je neskončno sodih členov, zato je $1$ stekališče. Vsi lihi členi pa so zunaj pasu, in teh je tudi neskončno, zato $1$ ni limita. Enako velja za $-1$, torej zaporedje nima limite.
+
+Vse to sem dodal na konec [[zaporedja]] kot razdelek **Razlika med stekališčem in limito**. Zraven je primerjava obeh formalnih zapisov, ki se razlikujeta le v enem kvantifikatorju. Dodal sem še primer $0, 1, 0, 2, 0, 3, \dots$: ima eno samo stekališče $0$, limite pa nima.
+[Timestamp: 2026/10/29 11:10:40]
