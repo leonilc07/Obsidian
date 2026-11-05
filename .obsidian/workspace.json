@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a4786b064eccb885",
+        "id": "b45645e272c4e826",
         "type": "tabs",
         "children": [
           {
-            "id": "8507e754ece3e38f",
+            "id": "db2d9c9e1f382ff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programiranje 1/funkcije, moduli.md",
+                "file": "programiranje 1/glavno programiranje.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "funkcije, moduli"
+              "title": "glavno programiranje"
+            }
+          },
+          {
+            "id": "dccceae926dd3d4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "metode.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "metode"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e6554e84e3ddede5",
@@ -187,7 +202,7 @@
               "type": "copilot-agent-chat-view",
               "state": {},
               "icon": "copilot-agent",
-              "title": "Copilot Agent"
+              "title": "Copilot Agent Chat"
             }
           }
         ],
@@ -195,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 446.2999267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,51 +229,52 @@
   },
   "active": "451264c88924f998",
   "lastOpenFiles": [
-    "copilot/copilot-conversations/agent__ali_vidiš_datoteko_funkcijo.py_povej_nekaj_od_njih_tukaj_in@20261029_135141.md",
-    "programiranje 1/funkcije.py",
-    "stvari/Pasted image 20261029114350.png",
+    "metode.md.tmp.23328.6331949ea4cd",
+    "metode.md.tmp.23328.32498fe9f4ae",
+    "metode.md.tmp.23328.1e05add22fdb",
+    "hghfdsbgihdsab.md",
+    "copilot/copilot-conversations/agent__malo_opiši_vse_te_metode_in_tudi_tisti_trik_na@20261105_124658.md",
+    "metode.md",
     "programiranje 1/glavno programiranje.md",
-    "programiranje 1/funkcije, moduli.md",
+    "matematika/vaje/limite.md",
     "matematika/Gavno M.md",
-    "zaporedja.md",
-    "z.tmp",
-    "sedMtGzaA",
-    "sedwPBaIw",
-    "zaporedja.md.tmp.2552.78cdf159f65e",
-    "copilot/copilot-conversations/agent__naredi_za_zaporedja_manjši_uvod._kaj_je_to_akplicidno_in@20261028_160841.md",
-    "uvod v računalništvo/Glavno UR.md",
-    "uvod v računalništvo/racualniska arhitektura.md",
-    "uvod v računalništvo/Strojni ukazi.md",
-    "uvod v računalništvo/01 Zahteve in uporabniške zgodbe.md",
-    "uvod v računalništvo/02 UML - pregled.md",
-    "uvod v računalništvo/binarna števila.md",
-    "matematika/enacbe procenti abslutna.md",
+    "matematika/limite.md",
+    "matematika/vaje",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/json-canvas",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-bases",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
+    "copilot/skills/copilot-web-fetch/SKILL.md",
+    "copilot/skills/copilot-web-search/SKILL.md",
+    "Excalidraw/diskretne strukture vaje 4.md",
     "matematika/kompleksna števila.md",
-    "copilot/copilot-conversations/agent__sedaj_je_treba_dodati_na_to_datoteko_nekaj_stvari_o@20261027_100015.md",
-    "test.md",
+    "zaporedja.md",
+    "uvod v računalništvo/02 UML - pregled.md",
+    "uvod v računalništvo/01 Zahteve in uporabniške zgodbe.md",
+    "stvari/Ink/Writing/turingov stroj.svg",
+    "stvari/Ink/Writing/2026.10.31 - 11.24am.svg",
     "stvari/Ink/Drawing/2026.10.26 - 21.29pm.svg",
-    "stvari/Ink/Drawing",
-    "stvari/Ink",
-    "ReadMe.md",
-    "copilot/copilot-conversations/attachments/copilot-image-bd90afa9db78eabf463e7c7a8e69766d6eeef249054d0dd19dc66bab1a121867.png",
-    "copilot/copilot-conversations/attachments/copilot-image-d1707dc71099b0eb494d98281d2b40cbd3593ac396ef4833480a140f949c71ec.png",
-    "copilot/copilot-conversations/attachments/copilot-image-02ffba9288007f7c3522b66e6184211e88d9436f18301df58ec16063ebc98888.png",
-    "copilot/copilot-conversations/attachments/copilot-image-e72d27c784685ff424b6c3e69971e64c3cd947d5ce3209b87cc6896c55bff57d.png",
-    "copilot/copilot-conversations/attachments/copilot-image-9679ba8ebe8d32fef398dd2f14c991d79a4f916fa97d010615338cd560d6b8cd.png",
-    "copilot/copilot-conversations/attachments/copilot-image-65107f484992feb0f8d89d26e2ef83bdf3a071fb8143576331bd91c62f539758.png",
-    "copilot/copilot-conversations/attachments/copilot-image-a06cba809e81452659bea3fd6f3baf09de52f6cfd9216d59cae252c43038d1a7.png",
-    "diskretne strukture/izjave in izjavni vezniki.md",
-    "diskretne strukture/DS glavno.md",
-    "programiranje 1/pyton osnove.md",
-    "programiranje 1/pyton indeksi in rezine.md",
-    "pyton indeksi in rezine.md.tmp.16568.5f9c6af8d217",
-    "pyton osnove.md.tmp.25188.12a145507747",
-    "copilot/copilot-conversations/agent__v_to_datoteko_naredi_neko_osnovo_od_pytona_kako_se@20261026_174952.md",
-    "diskretne strukture/skepi.md",
-    "diskretne strukture/matematična indukcija.md",
-    "diskretne strukture/področje pogovora in predikati.md",
-    "diskretne strukture/reševanje izjav in nabori.md",
-    "copilot/copilot-conversations/attachments/copilot-image-cbcb7317a559322be4a45d044a669d3736b37bdf9489815e225622a968828e73.png",
-    "diskretne strukture/3. skepi.md.tmp.22968.41ea57aa49e5"
+    "stvari/diagram-primerov-uporabe.svg",
+    "stvari/Pasted image 20261014201733.png",
+    "stvari/Pasted image 20261014203141.png",
+    "stvari/Pasted image 20261023084657.png",
+    "stvari/Pasted image 20261029114350.png",
+    "stvari/sinx_vecje_pol.svg",
+    "Untitled.canvas",
+    "copilot/copilot-conversations/attachments/copilot-image-a347e187f07f1bb8160243f0ee664a6355ab133d8afc0c9fb4b55dee3148f266.png"
   ]
 }

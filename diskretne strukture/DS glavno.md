@@ -11,3 +11,4 @@ gororilne: pon ob 12
 - 4 [[področje pogovora in predikati]]
 # vaje
 - 1. vaje 7. 10. 2026 [[matematična indukcija]]
+- 4. vaje [[diskretne strukture vaje 4]]
