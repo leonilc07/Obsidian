@@ -317,8 +317,8 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": "4.0.17",
-  "lastShownStartupVersion": "4.0.18",
+  "lastDismissedVersion": "4.0.19",
+  "lastShownStartupVersion": "4.0.19",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -405,7 +405,7 @@
       "info": {
         "id": "default",
         "displayName": "Default (recommended)",
-        "description": "Use the default model (currently Opus 5.5) · $4/$20 per Mtok"
+        "description": "Opus 5.5 · Best for everyday, complex tasks"
       },
       "configuredModelId": "c6559d9b-d9eb-4f48-be5f-c2f9dcba9f3b",
       "configuredAt": 1791623582941
@@ -414,8 +414,8 @@
       "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
       "info": {
         "id": "opus",
-        "displayName": "Opus",
-        "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok"
+        "displayName": "Opus 5.5",
+        "description": "For complex work and everyday tasks"
       },
       "configuredModelId": "4e1169db-4545-47c3-ac09-2c632e68c4b7",
       "configuredAt": 1791623582943
@@ -424,8 +424,8 @@
       "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
       "info": {
         "id": "sonnet",
-        "displayName": "Sonnet",
-        "description": "Sonnet 5.5 · Efficient for routine tasks · $2/$10 per Mtok"
+        "displayName": "Sonnet 5.5",
+        "description": "Most efficient for simpler tasks"
       },
       "configuredModelId": "4ee0c5ba-3435-4f22-ad9e-d852d5fae22a",
       "configuredAt": 1791623582943
@@ -434,8 +434,8 @@
       "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
       "info": {
         "id": "haiku",
-        "displayName": "Haiku",
-        "description": "Haiku 5.5 · Fastest for quick answers · $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100k)"
+        "displayName": "Haiku 5.5",
+        "description": "Fastest for quick answers"
       },
       "configuredModelId": "761d1cfc-3132-42f5-8cc9-a9951138adc9",
       "configuredAt": 1791623582944
@@ -443,12 +443,309 @@
     {
       "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
       "info": {
-        "id": "claude-fable-5-1[1m]",
-        "displayName": "Fable",
-        "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks"
+        "id": "fable",
+        "displayName": "Fable 5.2",
+        "description": "For your toughest challenges"
       },
-      "configuredModelId": "1ce3d2da-b135-4a0a-b6e8-929e8fe9eb10",
-      "configuredAt": 1793797334686
+      "configuredModelId": "82efac1f-1311-4928-9b71-8f3c29696ef1",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-haiku-4-5-20251001",
+        "displayName": "Haiku 4.5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 200000,
+          "output": 64000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2025-10-15",
+        "cost": {
+          "input": 1,
+          "output": 5,
+          "cacheRead": 0.1,
+          "cacheWrite": 1.25
+        },
+        "description": "Fastest for quick answers"
+      },
+      "configuredModelId": "90599d77-88eb-4e34-850e-94dca74fcad3",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-sonnet-5",
+        "displayName": "Sonnet 5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-06-29",
+        "cost": {
+          "input": 2,
+          "output": 10,
+          "cacheRead": 0.2,
+          "cacheWrite": 2.5
+        },
+        "description": "Efficient for routine tasks"
+      },
+      "configuredModelId": "35b1e258-b424-47b1-92d5-422529179357",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-opus-5",
+        "displayName": "Opus 5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-24",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "40dba7ee-46f4-4857-b9d4-4c14dc24ca75",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-fable-5",
+        "displayName": "Fable 5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-06-07",
+        "cost": {
+          "input": 10,
+          "output": 50,
+          "cacheRead": 1,
+          "cacheWrite": 12.5
+        },
+        "description": "Most capable for your hardest and longest-running tasks"
+      },
+      "configuredModelId": "91e209e7-cd2f-48d7-9567-0712f4d967e9",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-opus-4-8",
+        "displayName": "Opus 4.8",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-05-28",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "c0b484ae-e61a-4e2a-98cc-5e85ea474199",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-opus-4-7",
+        "displayName": "Opus 4.7",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-14",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "906a61d9-640b-43f2-911b-7752d3078756",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-opus-4-6",
+        "displayName": "Opus 4.6",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-02-04",
+        "cost": {
+          "input": 5,
+          "output": 25,
+          "cacheRead": 0.5,
+          "cacheWrite": 6.25
+        },
+        "description": "Best for everyday, complex tasks"
+      },
+      "configuredModelId": "dd054454-186d-4e53-9f40-4650394b4043",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-sonnet-4-6",
+        "displayName": "Sonnet 4.6",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-02-17",
+        "cost": {
+          "input": 3,
+          "output": 15,
+          "cacheRead": 0.3,
+          "cacheWrite": 3.75
+        },
+        "description": "Efficient for routine tasks"
+      },
+      "configuredModelId": "1226b6ec-9fae-4385-91a9-3b98fb42c6bf",
+      "configuredAt": 1793949417110
+    },
+    {
+      "providerId": "76afadd2-9cb3-4e5e-9b3e-f063017ef10a",
+      "info": {
+        "id": "claude-fable-5-1",
+        "displayName": "Fable 5.1",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-01",
+        "cost": {
+          "input": 10,
+          "output": 50,
+          "cacheRead": 0.25,
+          "cacheWrite": 12.5
+        },
+        "description": "Most capable for your hardest and longest-running tasks"
+      },
+      "configuredModelId": "3ef1b6ff-c566-41c5-be8b-2fcb4d263aa4",
+      "configuredAt": 1794391373106
     }
   ],
   "backends": {
@@ -526,25 +823,6 @@
         "id": "deepseek-v4-pro",
         "displayName": "DeepSeek V4 Pro",
         "description": "A top-tier model for the hardest reasoning and agentic tasks.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [],
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1048576
-        }
-      },
-      {
-        "id": "deepseek-v4-flash-0731",
-        "displayName": "DeepSeek V4 Flash 0731",
-        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
         "toolCall": true,
         "reasoning": true,
         "reasoningEfforts": [],

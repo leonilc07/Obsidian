@@ -251,3 +251,66 @@ $$\exists x\, (C \land W) \sim C \land \exists x\, W$$
 Če $C$ ne vsebuje prostega $x$, se njena vrednost ne spreminja, ko kvantifikator preverja različne $x$. Zato jo lahko prestavimo iz dosega kvantifikatorja.
 - primer: $\forall x\, (P(a) \lor Q(x)) \sim P(a) \lor \forall x\, Q(x)$, ker $P(a)$ ne vsebuje $x$
 - brez omejitve ne gre: $\forall x\, (P(x) \lor \neg P(x))$ je splošno veljavna, $P(x) \lor \forall x\, \neg P(x)$ pa ne (npr. $D = \{1, 2\}$, $P$ velja samo za 2, $x = 1$ da vrednost 0)
+
+## zamenjava raznovrstnih kvantifikatorjev
+Zamenjava raznovrstnih kvantifikatorjev v splošnem **ni možna**:
+$$\forall x\, \exists y\, P(x, y) \not\sim \exists y\, \forall x\, P(x, y)$$
+- $P(x, y)$: „$x$ pozna $y$-ona“
+- $\forall x\, \exists y\, P(x, y)$: vsak pozna nekoga
+- $\exists y\, \forall x\, P(x, y)$: obstaja nekdo, ki ga poznajo vsi
+- protiprimer: $D = \{\text{Ana}, \text{Bor}\}$, Ana pozna Bora, Bor pozna Ano, nihče ne pozna sebe. Vsak pozna nekoga (1), ni pa nikogar, ki bi ga poznala oba (0).
+
+**Včasih vseeno lahko:**
+$$\forall x\, \exists y\, (P(x) \land Q(y)) \sim \exists y\, \forall x\, (P(x) \land Q(y))$$
+
+Tu je vsak predikat odvisen samo od **ene** spremenljivke, zato lahko z zakoni z omejitvami kvantifikatorje premikamo naprej in nazaj:
+$$
+\begin{aligned}
+\forall x\, \exists y\, (P(x) \land Q(y)) &\sim \forall x\, (P(x) \land \exists y\, Q(y)) && P(x) \text{ ne vsebuje } y \\
+&\sim \forall x\, P(x) \land \exists y\, Q(y) && \exists y\, Q(y) \text{ ne vsebuje prostega } x \\
+&\sim \exists y\, (\forall x\, P(x) \land Q(y)) && \forall x\, P(x) \text{ ne vsebuje } y \\
+&\sim \exists y\, \forall x\, (P(x) \land Q(y)) && Q(y) \text{ ne vsebuje } x
+\end{aligned}
+$$
+
+# Preneksna normalna oblika
+**Trditev:** vsako formulo lahko enakovredno zapišemo tako, da se kvantifikatorji nahajajo **samo na začetku**.
+
+Formula $W_{PNO}$ je **preneksna normalna oblika** formule $W$, če velja:
+- $W_{PNO} \sim W$
+- $W_{PNO}$ ima vse kvantifikatorje na začetku
+
+Kako?
+1. **Preimenujemo** spremenljivke (vezane, tako da ima vsak kvantifikator svojo spremenljivko in nobena ni hkrati vezana in prosta).
+2. Znebimo se $\Rightarrow$ in $\Leftrightarrow$, raje imamo $\neg$, $\land$ in $\lor$.
+3. **Izvlečemo** kvantifikatorje na začetek z uporabo zakonov predikatnega računa.
+
+Preimenovanje naredimo zato, ker zakoni z omejitvami zahtevajo, da $C$ ne vsebuje spremenljivke kvantifikatorja. Ko ima vsak kvantifikator svoje ime, je ta pogoj vedno izpolnjen.
+
+## primer
+$$\forall x\, A(x) \lor \exists x\, B(x) \Rightarrow D(x) \land \exists x\, D(x)$$
+
+**1. Preimenovanje.** $x$ nastopa pri treh kvantifikatorjih, v $D(x)$ pa je prost (doseg $\forall x$ je samo $A(x)$). Prostega $x$ ne smemo preimenovati, vezane pa preimenujemo v $y$, $z$, $w$:
+$$\forall y\, A(y) \lor \exists z\, B(z) \Rightarrow D(x) \land \exists w\, D(w)$$
+
+**2. Odstranimo implikacijo** ($W \Rightarrow V \sim \neg W \lor V$, $\Rightarrow$ veže najšibkeje, zato je levo cela disjunkcija):
+$$\neg (\forall y\, A(y) \lor \exists z\, B(z)) \lor (D(x) \land \exists w\, D(w))$$
+
+**3. Negacijo spravimo noter** (De Morgan, nato negacija kvantifikatorja):
+$$
+\begin{aligned}
+&\sim (\neg \forall y\, A(y) \land \neg \exists z\, B(z)) \lor (D(x) \land \exists w\, D(w)) && \text{De Morgan} \\
+&\sim (\exists y\, \neg A(y) \land \forall z\, \neg B(z)) \lor (D(x) \land \exists w\, D(w)) && \neg \forall \sim \exists \neg, \ \neg \exists \sim \forall \neg
+\end{aligned}
+$$
+
+**4. Izvlečemo kvantifikatorje** (zakoni z omejitvami, po enega naenkrat):
+$$
+\begin{aligned}
+&\sim \exists w\, \big((\exists y\, \neg A(y) \land \forall z\, \neg B(z)) \lor (D(x) \land D(w))\big) && \text{ostalo ne vsebuje } w \\
+&\sim \exists w\, \exists y\, \big((\neg A(y) \land \forall z\, \neg B(z)) \lor (D(x) \land D(w))\big) && \text{ostalo ne vsebuje } y \\
+&\sim \exists w\, \exists y\, \forall z\, \big((\neg A(y) \land \neg B(z)) \lor (D(x) \land D(w))\big) && \text{ostalo ne vsebuje } z
+\end{aligned}
+$$
+
+Dobili smo PNO: vsi kvantifikatorji so na začetku. $x$ ostane prost, ker je bil prost že v začetni formuli.

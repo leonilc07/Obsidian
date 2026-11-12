@@ -97,7 +97,6 @@ $2^{16} \cdot 2^{8}\,\text{B} = 2^{24}\,\text{B} = 2^4 \cdot 2^{20}\,\text{B} = 
 
 **Povprečni čas pri 80 %**
 $0{,}8 \cdot 10\,\text{ns} + 0{,}2 \cdot (10\,\text{ns} + 25\,\text{ns}) = 8\,\text{ns} + 7\,\text{ns} = 15\,\text{ns}$
-
 **Verjetnost zadetka za 12 ns**
 $x \cdot 10 + (1-x) \cdot 35 = 12$
 $35 - 25x = 12 \Rightarrow x = \frac{23}{25} = 0{,}92$
