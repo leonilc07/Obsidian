@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca1010d2464c96ee",
+        "id": "9d7e0e0b0df94e3c",
         "type": "tabs",
         "children": [
           {
-            "id": "ea769f8ddddea313",
+            "id": "5376f018937338ac",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "diskretne strukture/13.11 - predavanje.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "13.11 - predavanje"
             }
           }
         ]
@@ -93,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.6138458251953
+    "width": 371.5892791748047
   },
   "right": {
     "id": "e6554e84e3ddede5",
@@ -205,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.32611083984375
+    "width": 446.08099365234375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,19 +228,39 @@
   },
   "active": "451264c88924f998",
   "lastOpenFiles": [
+    "diskretne strukture/Graf relacije e f g h.excalidraw.md",
+    "stvari/Pasted image 20261113105516.png",
+    "stvari/Ink/Writing/2026.11.13 - 10.40am.svg",
+    "stvari/Pasted image 20261113104012.png",
+    "stvari/Ink/Writing/2026.11.13 - 10.39am.svg",
+    "stvari/Pasted image 20261113103534.png",
+    "stvari/Ink/Writing/2026.11.13 - 10.30am.svg",
+    "stvari/Pasted image 20261113102949.png",
+    "stvari/Ink/Writing/2026.11.13 - 10.20am.svg",
+    "stvari/Pasted image 20261113101842.png",
+    "stvari/Pasted image 20261113101646.png",
+    "diskretne strukture/Naloga programerji.excalidraw.md",
+    "diskretne strukture/Moč unije dveh množic.excalidraw.md",
+    "diskretne strukture/Kartezični produkt - podmnožice.excalidraw.md",
+    "diskretne strukture/13.11 - predavanje.md",
+    "diskretne strukture/06_dsvsp_vaje.pdf",
+    "diskretne strukture/13.11 - predavanje.md.tmp.12424.38469fee555d",
+    "diskretne strukture/Kartezični produkt - presek in unija.excalidraw.md",
+    "copilot/copilot-conversations/agent__kaj_je_ta_kartezični_produkt@20261113_083838.md",
+    "Drawing 2026-11-09 16.26.43.excalidraw.md",
+    "uvod v računalništvo/binarna števila.md",
+    "uvod v računalništvo/Glavno UR.md",
+    "uvod v računalništvo/turingov stroj.md",
+    "uvod v računalništvo/Strojni ukazi.md",
+    "uvod v računalništvo/01 Zahteve in uporabniške zgodbe.md",
+    "uvod v računalništvo/02 UML - pregled.md",
+    "copilot/copilot-conversations/agent__ok_sedaj_se_bomo_učili_malo_uvoda_v_računalništvo._kviz@20261112_192546.md",
     "računalniška arhitektura/operacije pomika.md",
     "računalniška arhitektura/operacije pomika in load-store.md",
     "računalniška arhitektura/operacije pomika.md.tmp.10552.9b98df95ff04",
-    "stvari/Ink/Writing/2026.11.12 - 16.39pm.svg",
-    "stvari/Ink/Writing/2026.11.12 - 16.20pm.svg",
-    "Drawing 2026-11-09 16.26.43.excalidraw.md",
     "računalniška arhitektura/12.11 predavanje - operacije pomika.md",
     "copilot/copilot-conversations/agent__sedaj_sem_naredil_tukaj_zapiske._daj_jih_urediti_kakor_ponavadi.@20261112_160509.md",
-    "stvari/Ink/Writing/2026.11.12 - 14.41pm.svg",
     "diskretne strukture/12. 11 - indukcija dopolnjevanje.md",
-    "stvari/Ink/Writing/2026.11.12 - 11.47am.svg",
-    "stvari/Ink/Writing/2026.11.12 - 11.35am.svg",
-    "stvari/Ink/Writing/2026.11.12 - 11.32am.svg",
     "matematika/vrste.md",
     "matematika/funkcije.md",
     "matematika/limite - zapiski.md",
@@ -250,26 +274,6 @@
     "matematika/vrste.md.tmp.21068.0acecce912f4",
     "matematika/vrste.md.tmp.21068.8ba3957ccc5e",
     "matematika/vrste.md.tmp.21068.97e5a72f2aa9",
-    "matematika/vrste.md.tmp.21068.37b9d050ad5c",
-    "matematika/limita.md",
-    "matematika/množice števil.md",
-    "matematika/vrste.md.tmp.21068.530cacebc3db",
-    "matematika/Drawing 2026-11-11 11.03.28.excalidraw.md",
-    "copilot/copilot-conversations/agent__ok_tukaj_imam_vaje_in_predavanje_od_matematike._vse_skupaj@20261111_200440.md",
-    "matematika/enacbe procenti abslutna.md",
-    "copilot/copilot-conversations/attachments/copilot-image-99237f469ff4d39d1d76400141080e0493a48ace4c29856ef3728f9ab062c96c.png",
-    "copilot/copilot-conversations/attachments/copilot-image-ee6aaafb01593c192c85e2bdb235d242a95a070e6611164124cba98cc20b0fc1.png",
-    "copilot/copilot-conversations/attachments/copilot-image-6437794df70b81286a3d4d603be77321c8cf1a3036e6f500773d7900855bfd01.png",
-    "copilot/copilot-conversations/attachments/copilot-image-05551fc2ad2e3fc9bb60d1bc963b981eca40cf4479bd7c4798c462afec144e5d.png",
-    "uvod v računalništvo/Prevajanje in BNF.md",
-    "stvari/Vaje 6 - sintaksno drevo dodatna 2.excalidraw.md",
-    "stvari/Vaje 6 - sintaksno drevo 6.7.excalidraw.md",
-    "stvari/Vaje 6 - sintaksno drevo 6.5.excalidraw.md",
-    "uvod v računalništvo/9.11.md",
-    "stvari/Vaje 6 - sintaksno drevo 6.4.excalidraw.md",
-    "stvari/Vaje 6 - drevo 6.4.excalidraw.md",
-    "računalniška arhitektura/10.11.md",
-    "Untitled.canvas",
-    "uvod v računalništvo/binarna števila.md"
+    "Untitled.canvas"
   ]
 }
