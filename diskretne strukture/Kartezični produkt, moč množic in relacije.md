@@ -138,6 +138,7 @@ $$A \cup B = A \cup (B \setminus A)$$
 $$|A \cup B| = |A| + |B \setminus A| = |A| + |B| - |A \cap B|$$
   pri čemer smo uporabili 4
 - intuicija: elemente iz $A \cap B$ štejemo v $|A|$ in v $|B|$, torej dvakrat, zato jih enkrat odštejemo
+- formulo lahko obrnemo, ko poznamo unijo in iščemo presek: $|A \cap B| = |A| + |B| - |A \cup B|$, oziroma $|A \cap B| + |A \cup B| = |A| + |B|$
 
 ![[Moč unije dveh množic.excalidraw]]
 
@@ -208,6 +209,41 @@ $$(30 + 20 + 40) - 3 \cdot 10 = 60$$
 V natanko dveh jezikih torej programira **60 programerjev**.
 
 ![[Naloga programerji.excalidraw]]
+
+## naloga 3
+**V anketi je sodelovalo 100 dijakov. 32 jih zanima matematika, 20 fizika, 45 biologija, 15 matematika in biologija, 7 matematika in fizika, 10 fizika in biologija, 30 pa ne zanima noben od teh treh predmetov. Določi število dijakov, ki jih zanima natanko eden od teh treh predmetov.**
+
+Naj bo $S$ množica vseh dijakov, $M$, $F$ in $B$ pa množice dijakov, ki jih zanima matematika, fizika in biologija.
+- $|S| = 100$, $|M| = 32$, $|F| = 20$, $|B| = 45$
+- $|M \cap B| = 15$, $|M \cap F| = 7$, $|F \cap B| = 10$
+- $|M^c \cap F^c \cap B^c| = 30$
+
+**1. korak: unija prek komplementa.** Dijaki, ki jih ne zanima nič, so po De Morganu $M^c \cap F^c \cap B^c = (M \cup F \cup B)^c$, zato
+$$|M \cup F \cup B| = |S| - 30 = 70$$
+
+**2. korak: presek vseh treh iz načela vključitev in izključitev.** Neznanka je samo $|M \cap F \cap B|$:
+$$70 = 32 + 20 + 45 - 15 - 7 - 10 + |M \cap F \cap B| = 65 + |M \cap F \cap B|$$
+torej je $|M \cap F \cap B| = 5$.
+
+**3. korak: vsako območje „samo ena množica“ posebej.** Od $|M|$ odštejemo oba preseka parov. Pri tem smo presek vseh treh odšteli dvakrat, zato ga enkrat prištejemo:
+$$|M \cap F^c \cap B^c| = |M| - |M \cap F| - |M \cap B| + |M \cap F \cap B|$$
+- samo matematika: $32 - 7 - 15 + 5 = 15$
+- samo fizika: $20 - 7 - 10 + 5 = 8$
+- samo biologija: $45 - 15 - 10 + 5 = 25$
+
+Natanko eden od predmetov zanima **$15 + 8 + 25 = 48$ dijakov**.
+
+**Preverba:** natanko dva predmeta zanimata $(7 - 5) + (15 - 5) + (10 - 5) = 17$ dijakov, vsi trije pa $5$. Skupaj $48 + 17 + 5 = 70 = |M \cup F \cup B|$ ✓
+
+**Trik, krajša pot:** z oznakami $S_1 = |M| + |F| + |B|$, $S_2 = $ vsota presekov parov in $S_3 = |M \cap F \cap B|$ velja
+$$\text{natanko ena} = S_1 - 2 S_2 + 3 S_3 = 97 - 2 \cdot 32 + 3 \cdot 5 = 48$$
+- element v natanko eni množici štejemo v $S_1$ enkrat, v $S_2$ in $S_3$ nič, skupaj $1$
+- element v natanko dveh štejemo v $S_1$ dvakrat in v $S_2$ enkrat: $2 - 2 \cdot 1 = 0$
+- element v vseh treh štejemo v $S_1$ trikrat, v $S_2$ trikrat in v $S_3$ enkrat: $3 - 2 \cdot 3 + 3 \cdot 1 = 0$
+
+Formula torej šteje točno tiste, ki so v eni sami množici. Podobno je pri nalogi 2 število v **natanko dveh** enako $S_2 - 3 S_3$.
+
+![[Naloga dijaki.excalidraw]]
 
 # Relacije
 Množica $R$ je **(dvomestna) relacija**, če je vsak njen element urejen par.

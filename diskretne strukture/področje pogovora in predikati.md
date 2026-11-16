@@ -196,6 +196,22 @@ Primer: $D = \{1, 2, 3\}$, $Q(x, y)$: „$x < y$“
 - $\forall x\, Q(x, 4)$: preverimo $Q(1, 4)$, $Q(2, 4)$, $Q(3, 4)$, vse so resnične, zato je formula **resnična**
 - $\exists x\, Q(x, 1)$: preverimo $Q(1, 1)$, $Q(2, 1)$, $Q(3, 1)$, nobena ni resnična, zato je formula **neresnična**
 
+## triki pri določanju resničnosti (vaje)
+Na neskončnem področju ne moremo preveriti vseh elementov, zato:
+- $\forall$ **ovržemo z enim protiprimerom**, $\exists$ **potrdimo z enim primerom**
+- $\forall x\, (W \Rightarrow V)$: gledamo samo $x$, pri katerih je $W$ resnična, pri ostalih je implikacija itak 1
+- pazimo na **robne elemente**, v $\mathbb{N}$ sta to $0$ in $1$
+
+Primer: $D = \mathbb{N}$, $P(x)$: „$x$ je praštevilo“, $D(x, y)$: „$x$ deli $y$“
+- $\forall x\, (P(x) \lor D(2, x))$: **0**, protiprimer $x = 9$ (ni praštevilo in ni sod)
+- $\exists x\, (P(x) \land D(2, x))$: **1**, primer $x = 2$
+- $\forall x\, (D(4, x) \Rightarrow D(2, x))$: **1**, kar je deljivo s 4, je deljivo tudi z 2
+- $\forall x\, \exists y\, D(x, y)$: **1**, vzamemo $y = x$ (ali $y = 0$, ker vsako število deli $0$)
+- $\exists x\, \forall y\, D(x, y)$: **1**, $x = 1$ deli vsa števila
+- $\forall x\, \exists y\, (P(y) \land D(y, x))$: **0**, protiprimer $x = 1$ nima nobenega praštevilskega delitelja
+- $\exists x\, \forall y\, (D(x, y) \Rightarrow \neg P(y))$: **1**, $x = 10$, ker število, deljivo z 10, ni praštevilo
+- $\forall x\, \exists y\, (P(x) \Rightarrow P(y) \land D(y, x))$: **1**. Če je $x$ praštevilo, vzamemo $y = x$, saj vsako število deli samo sebe. Če ni, je predpostavka 0 in implikacija velja
+
 ## preimenovanje spremenljivk
 **Dejstvo:** če je $W$ formula, potem imen **prostih** spremenljivk ne smemo spreminjati, če želimo pridelati enakovredno formulo.
 - $P(x)$ in $P(z)$ nista enakovredni: v interpretaciji lahko določimo $x = 1$ in $z = 2$, pa imata formuli različno vrednost
@@ -221,6 +237,30 @@ Izjavna formula $W$ je **splošno veljavna**, če je **resnična** v vsaki inter
 Izjavna formula $V$ je **neizpolnljiva**, če je **neresnična** v vsaki interpretaciji.
 - primer: $P(x) \land \neg P(x)$, vedno je 0
 
+## triki pri (ne)enakovrednosti (vaje)
+**Neenakovrednost** pokažemo z **eno interpretacijo**, v kateri imata formuli različno vrednost. Vzamemo čim manjše področje, npr. $D = \{a\}$ ali $D = \{a, b\}$, in vrednosti predikatov zapišemo v tabelo.
+
+- $W = \forall x\, (P(x) \Rightarrow R(x))$ in $V = \exists x\, (P(x) \Rightarrow R(x))$, iščemo interpretacijo, kjer je $W = 0$ in $V = 1$
+  - $D = \{a, b\}$, $P(a) = P(b) = 1$, $R(a) = 1$, $R(b) = 0$
+  - $P(a) \Rightarrow R(a) = 1$, zato $V = 1$, in $P(b) \Rightarrow R(b) = 0$, zato $W = 0$
+  - isto v $\mathbb{N}$: $P(x)$: „$x$ je praštevilo“, $R(x)$: „$x$ je sod“ ($x = 2$ ustreza, $x = 3$ ne)
+- $\forall x\, (P(x) \Leftrightarrow R(x))$ in $\forall x\, (P(x) \Rightarrow R(x))$
+  - $D = \{a\}$, $P(a) = 0$, $R(a) = 1$: implikacija je 1, ekvivalenca 0
+  - v $\mathbb{N}$: $P(x)$: „$4 \mid x$“, $R(x)$: „$2 \mid x$“. Implikacija velja povsod, ekvivalenca pa ne ($x = 2$)
+- $\forall x\, \forall y\, (P(x) \Rightarrow P(y))$ je **0**, če $P$ za en element velja, za drugega pa ne: $D = \{a, b\}$, $P(a) = 1$, $P(b) = 0$, za $x = a$, $y = b$ dobimo $1 \Rightarrow 0 = 0$
+
+**Enakovrednost** pokažemo s preoblikovanjem po zakonih. Trik je v tem, da $\exists$ združimo čez $\lor$:
+$$
+\begin{aligned}
+\forall x\, (P(x) \lor Q(x)) \Rightarrow \exists x\, (P(x) \land Q(x)) &\sim \neg \forall x\, (P(x) \lor Q(x)) \lor \exists x\, (P(x) \land Q(x)) \\
+&\sim \exists x\, (\neg P(x) \land \neg Q(x)) \lor \exists x\, (P(x) \land Q(x)) \\
+&\sim \exists x\, \big((\neg P(x) \land \neg Q(x)) \lor (P(x) \land Q(x))\big) \\
+&\sim \exists x\, (P(x) \Leftrightarrow Q(x))
+\end{aligned}
+$$
+- $(P \land Q) \lor (\neg P \land \neg Q)$ je ravno $P \Leftrightarrow Q$ (obe 1 ali obe 0)
+- $\exists x\, P(x) \Leftrightarrow \exists x\, Q(x)$ pa **ni** enakovredna. V $\mathbb{N}$ vzamemo $P(x)$: „$x$ je praštevilo“ in $Q(x) = \neg P(x)$. Potem je $P(x) \Leftrightarrow \neg P(x)$ vedno 0, zato $\exists x\, (P(x) \Leftrightarrow Q(x)) = 0$, a $\exists x\, P(x) \Leftrightarrow \exists x\, Q(x) = 1 \Leftrightarrow 1 = 1$
+
 # Zakoni predikatnega računa
 So nekateri pomembni pari enakovrednih izjavnih formul.
 
@@ -229,6 +269,8 @@ $$\neg \forall x\, W \sim \exists x\, \neg W$$
 $$\neg \exists x\, W \sim \forall x\, \neg W$$
 - „ni res, da so vsi politiki pošteni“ = „obstaja politik, ki ni pošten“
 - „ni res, da obstaja pošten politik“ = „vsi politiki so nepošteni“
+- pri več kvantifikatorjih gre negacija skozi **vse** in obrne vsakega, na koncu uporabimo De Morgana:
+$$\neg \forall x\, \exists y\, (P(x) \land \neg Q(y)) \sim \exists x\, \forall y\, \neg (P(x) \land \neg Q(y)) \sim \exists x\, \forall y\, (\neg P(x) \lor Q(y)) \sim \exists x\, \forall y\, (P(x) \Rightarrow Q(y))$$
 
 **Zamenjava enakih kvantifikatorjev:**
 $$\forall x\, \forall y\, W \sim \forall y\, \forall x\, W$$
@@ -314,3 +356,42 @@ $$
 $$
 
 Dobili smo PNO: vsi kvantifikatorji so na začetku. $x$ ostane prost, ker je bil prost že v začetni formuli.
+
+## triki pri PNO (vaje)
+**Kvantifikator na levi strani implikacije se obrne.** $W \Rightarrow V \sim \neg W \lor V$, zato negacija pri izvlečenju zamenja $\forall \leftrightarrow \exists$:
+$$
+\begin{aligned}
+\forall x\, P(x) \Rightarrow \forall x\, Q(x) &\sim \forall x\, P(x) \Rightarrow \forall y\, Q(y) && \text{preimenovanje} \\
+&\sim \exists x\, \neg P(x) \lor \forall y\, Q(y) \\
+&\sim \exists x\, \forall y\, (\neg P(x) \lor Q(y)) \sim \exists x\, \forall y\, (P(x) \Rightarrow Q(y))
+\end{aligned}
+$$
+- **pogosta napaka:** $\forall x\, \forall y\, (P(x) \Rightarrow Q(y))$ ni pravilno, $\forall$ z leve strani postane $\exists$
+
+**Kvantifikator na desni strani implikacije ostane enak**, implikacijo lahko celo pustimo:
+$$\forall x\, \forall y\, \big(P(x, y) \Rightarrow \exists z\, (P(x, z) \land P(y, z))\big) \sim \forall x\, \forall y\, \exists z\, \big(P(x, y) \Rightarrow P(x, z) \land P(y, z)\big)$$
+- velja, ker $P(x, y)$ ne vsebuje $z$
+
+**PNO ni enolična.** Kvantifikatorje, ki prihajajo iz **ločenih** delov formule, lahko izvlečemo v poljubnem vrstnem redu:
+$$
+\begin{aligned}
+\forall x\, \big(\exists y\, P(x, y) \Rightarrow \forall y\, R(y, x) \lor \exists x\, T(x)\big) &\sim \forall x\, \big(\exists y\, P(x, y) \Rightarrow \forall z\, R(z, x) \lor \exists w\, T(w)\big) \\
+&\sim \forall x\, \big(\forall y\, \neg P(x, y) \lor \forall z\, R(z, x) \lor \exists w\, T(w)\big) \\
+&\sim \forall x\, \forall y\, \forall z\, \exists w\, \big(P(x, y) \Rightarrow R(z, x) \lor T(w)\big)
+\end{aligned}
+$$
+- enako pravilno je $\forall x\, \exists w\, \forall z\, \forall y\, (\dots)$, ker so $y$, $z$ in $w$ vsak v svojem delu
+- $\forall x$ pa mora ostati spredaj, ker ga vsebujeta $P(x, y)$ in $R(z, x)$
+
+**Preimenujemo, preden izvlečemo, ker $\exists$ ne gre čez $\land$:**
+$$\forall x\, \big(\exists y\, P(x, y) \land \exists y\, R(x, y)\big) \sim \forall x\, \exists y\, \exists z\, \big(P(x, y) \land R(x, z)\big)$$
+- **ni pa** enakovredno $\forall x\, \exists y\, (P(x, y) \land R(x, y))$: tam bi moral isti $y$ ustrezati obema predikatoma
+
+**Neenakovrednost pokažemo s protiprimerom** v majhnem področju pogovora. Ali je $\neg \forall x\, \exists y\, (P(x) \land R(x, y)) \sim \forall y\, \exists x\, (\neg P(x) \lor \neg R(x, y))$?
+- pravilno je $\neg \forall x\, \exists y\, (\dots) \sim \exists x\, \forall y\, (\neg P(x) \lor \neg R(x, y))$ (za nek $x$ ne obstaja $y$), na desni pa sta kvantifikatorja **zamenjana**
+- protiprimer: $D = \{a, b\}$, $P(a) = P(b) = 1$, $R$ velja samo za $(a, b)$ in $(b, a)$
+- $\exists x\, \forall y\, (\neg P(x) \lor \neg R(x, y))$: za $x = a$ odpove $y = b$, za $x = b$ odpove $y = a$, torej **0**
+- $\forall y\, \exists x\, (\neg P(x) \lor \neg R(x, y))$: za $y = a$ vzamemo $x = a$, za $y = b$ vzamemo $x = b$, torej **1**
+- formuli imata različno vrednost, zato **nista enakovredni**
+
+Ročni zapiski z vaj: [[DS - Predikati in množice - vaje.excalidraw]], [[DS - Predikati - vaje 4.excalidraw]]

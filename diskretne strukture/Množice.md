@@ -234,6 +234,43 @@ B &= \emptyset \cup B = (A \setminus B) \cup B && \text{predpostavka} \\
 $$
 Dobili smo $A \cup B = B$, iz prvega dokaza pa sledi $A \subseteq B$.
 
+## triki pri reševanju (vaje)
+**Izpostavimo skupno množico** (distributivnost v obratni smeri), nato uporabimo $B \cap B^c = \emptyset$:
+$$(A \cup B) \cap (A \cup B^c) = A \cup (B \cap B^c) = A \cup \emptyset = A$$
+- primer: $\big((A \cup B) \cap (A \cup B^c)\big) \cup \big((A^c \cup B) \cap (A^c \cup B^c)\big)$. Prvi oklepaj je po triku $A$, drugi enako $A^c$, zato je vse skupaj $A \cup A^c = S$
+
+**Dvojna razlika:** $X \setminus (X \setminus Y) = X \cap Y$
+- zakaj: $X \cap (X \cap Y^c)^c = X \cap (X^c \cup Y) = (X \cap X^c) \cup (X \cap Y) = X \cap Y$
+- gnezdene razlike razpakiramo **od znotraj navzven**: $A \setminus (A \setminus (B \setminus (B \setminus C))) = A \setminus (A \setminus (B \cap C)) = A \cap B \cap C$
+
+**Razlika se razdeli čez unijo:** $(A \cup B) \setminus C = (A \setminus C) \cup (B \setminus C)$, ker je $(A \cup B) \cap C^c = (A \cap C^c) \cup (B \cap C^c)$
+- primer: $(A + B) \setminus A = \big((A \setminus B) \cup (B \setminus A)\big) \setminus A = \underbrace{(A \setminus B) \setminus A}_{\emptyset} \cup (B \setminus A) = B \setminus A$
+- $(A \setminus B) \setminus A = A \cap B^c \cap A^c = \emptyset$, ker je v njem $A \cap A^c$
+
+**Vsebovanost dokažemo po elementih:** vzamemo $x$ iz leve strani in pokažemo, da je v desni.
+- primer: $(A \cap B) \setminus C \subseteq (A \cup C) \cap B$. Iz $x \in (A \cap B) \setminus C$ sledi $x \in A$ in $x \in B$. Ker je $x \in A$, je tudi $x \in A \cup C$, torej $x \in (A \cup C) \cap B$
+- krajše: $(A \cup C) \cap B = (A \cap B) \cup (C \cap B) \supseteq A \cap B \supseteq (A \cap B) \setminus C$
+
+**Ko enakost ne velja, poiščemo protiprimer** z majhnimi množicami. Najprej narišemo Vennov diagram za obe strani, pogledamo, v katerem območju se razlikujeta, in tja postavimo element.
+- primer: $A \cup (B + C) \ne (A \cup B) + (A \cup C)$. Desna stran je $(B + C) \setminus A$, elementi iz $A$ se izgubijo. Za $A = \{1\}$, $B = \{1, 2\}$, $C = \{1, 2, 3\}$: levo $\{1\} \cup \{3\} = \{1, 3\}$, desno $\{1, 2\} + \{1, 2, 3\} = \{3\}$
+
+**Pri simetrični razliki se enaki členi pokrajšajo**, ker je $A + A = \emptyset$ (komutativnost in asociativnost):
+$$(A + B) + (A + C) = A + A + B + C = B + C$$
+- primer: $(A + B) + (A + C) = A + (B + C)$ zato velja **le za $A = \emptyset$**. Protiprimer $A = \{1, 2, 3\}$, $B = \{1, 2, 4\}$, $C = \{1, 3, 5\}$: levo $\{3, 4\} + \{2, 5\} = \{2, 3, 4, 5\}$, desno $\{1, 2, 3\} + \{2, 3, 4, 5\} = \{1, 4, 5\}$
+
+**Vennov diagram treh množic ima 8 območij.** Vsako je presek treh množic, kjer vzamemo $A$ ali $A^c$, $B$ ali $B^c$ in $C$ ali $C^c$ (npr. $A \cap B^c \cap C^c$ so elementi samo v $A$, $A^c \cap B^c \cap C^c$ so zunaj vseh).
+- „v natanko eni množici“: $(A \cap B^c \cap C^c) \cup (A^c \cap B \cap C^c) \cup (A^c \cap B^c \cap C)$
+- vsako množico razbijemo na njena 4 območja: $A = (A \cap B \cap C) \cup (A \cap B \cap C^c) \cup (A \cap B^c \cap C) \cup (A \cap B^c \cap C^c)$
+
+**Simetrična razlika s podmnožico:** če je $X \subseteq Y$, je $X + Y = Y \setminus X$ (skupni elementi se izničijo, ostane le, kar je samo v $Y$)
+- primer: $C \subseteq A \cup C$, zato $C + (A \cup C) = (A \cup C) \setminus C = A \setminus C$. Za $A = \{1, 2, 3\}$, $C = \{0, 1, 4, 5\}$ je to $\{2, 3\}$
+
+**Potenčna množica minus množica števil:** elementi $\mathcal{P}X$ so **množice**, zato nimajo skupnih elementov z množico števil
+- primer: $\mathcal{P}\{2, 3\} \setminus \{0, 1, 4, 5\} = \mathcal{P}\{2, 3\}$, nič se ne odšteje
+- primer: $\mathcal{P}\{1\} + \mathcal{P}\{4\} = \{\emptyset, \{1\}\} + \{\emptyset, \{4\}\} = \{\{1\}, \{4\}\}$, ker je $\emptyset$ v obeh in se izniči
+
+Ročni zapiski z vaj: [[DS - Množice - vaje.excalidraw]]
+
 # Potenčna množica
 **Potenčna množica** množice $A$, $\mathcal{P}A$, je množica **vseh podmnožic** množice $A$.
 $$\mathcal{P}A = \{B \,;\, B \subseteq A\}$$
@@ -265,6 +302,11 @@ Vse podmnožice dobimo sistematično s tabelo: za vsak element povemo, ali je v 
 - $\mathcal{P}\emptyset = \{\emptyset\}$: edina podmnožica prazne množice je $\emptyset$, zato ima $\mathcal{P}\emptyset$ en element ($2^0 = 1$)
 - $\mathcal{P}\{\emptyset\} = \{\emptyset, \{\emptyset\}\}$: $\{\emptyset\}$ ima en element (to je $\emptyset$), zato ima dve podmnožici ($2^1 = 2$)
 - $\mathcal{P}\{a\} = \{\emptyset, \{a\}\}$: enako kot prej, le da je element $a$
+
+**Pazi na razliko med $\emptyset$ in $\{\emptyset\}$** ($\emptyset$ nima elementov, $\{\emptyset\}$ ima enega):
+- $\emptyset \cap \{\emptyset\} = \emptyset$: prazna množica nima elementov, zato tudi presek nima nobenega
+- $\{\emptyset\} \cap \{\emptyset\} = \{\emptyset\}$: obe množici imata isti element $\emptyset$
+- $\{\emptyset, \{\emptyset\}\} \setminus \{\emptyset\} = \{\{\emptyset\}\}$: odstranimo element $\emptyset$, ostane element $\{\emptyset\}$
 
 **Trditev:** če je $A \subseteq B$, potem je $\mathcal{P}A \subseteq \mathcal{P}B$.
 - beremo: če je $A$ podmnožica $B$, potem je vsaka podmnožica $A$ tudi podmnožica $B$

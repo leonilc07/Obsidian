@@ -6,11 +6,12 @@ sessionId: "f98c2496-2d0e-4e17-a918-f9b372478e06"
 topic: "ok sedaj se bomo učili malo uvoda v računalništvo. kviz ia č…"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":84046,"contextWindow":1000000,"inputTokens":4,"outputTokens":3,"cacheReadTokens":82723,"cacheWriteTokens":1316,"updatedAt":1794512117566}'
+usage: '{"usedTokens":87558,"contextWindow":1000000,"inputTokens":2,"outputTokens":5,"cacheReadTokens":86554,"cacheWriteTokens":997,"updatedAt":1794572696828}'
+lastAccessedAt: 1794571983471
 ---
 
 **user**: ok sedaj se bomo učili malo uvoda v računalništvo. kviz ia časovno omejitev taok da de či kaj nebo ratalo ti bom poslal sem slike ali jh dal na to datoteok. nato boš malo pogledal kaj sem ndaredil in kaok. dobro zanem
-[Timestamp: 2026/11/12 19:25:46]
+[Timestamp: 2026/11/12 19:25:47]
 
 **ai**: Pripravil sem kviz iz vseh dosedanjih tem ([[Glavno UR]], tedni 1–5 in vaje 6). **Časovna omejitev je 60 minut.** Nastavi si štoparico, piši na papir ali v [[Drawing 2026-11-09 16.26.43.excalidraw|risbo]] in ne glej v zapiske. Ob vsaki nalogi je okviren čas. Kar ti ne uspe, preskoči in pojdi naprej.
 
@@ -75,13 +76,9 @@ nariši sintaksno drevo za `a * b * c`.
 ---
 
 Ko se čas izteče ali končaš, mi pošlji slike ali nariši v risbo in mi napiši, da si končal. Nato bom pregledal vsako nalogo: kaj je prav, kje je napaka in zakaj. Srečno, **čas teče od zdaj**.
-[Timestamp: 2026/11/12 19:25:46]
+[Timestamp: 2026/11/12 19:25:51]
 
 **user**: nene jaz bom reševal kviz. od profesorjev.  ok zakaj to ni pravokotnik ?
-
-<!-- copilot-image:004252c1f1bd002d16defc91357497cafa953701e6adfc0b1ba64062b5a37f25 -->
-![[copilot-image-004252c1f1bd002d16defc91357497cafa953701e6adfc0b1ba64062b5a37f25.png]]
-<!-- /copilot-image -->
 [Timestamp: 2026/11/12 19:36:46]
 
 **ai**: Pravilen odgovor je **akter**, torej lutka (človeška figura), ne pravokotnik.
@@ -94,17 +91,9 @@ Diagram je narejen **za banko**, zato je sistem, ki ga modeliramo, bankin sistem
 **Akter ni nujno človek.** Lutko narišeš za vsakega, ki je zunaj meje sistema, tudi če je to računalniški sistem drugega podjetja.
 
 Na sliki zato manjka piktogram nad Bankartom. Tja spada lutka, enaka kot pri Komitentu.
-[Timestamp: 2026/11/12 19:36:46]
+[Timestamp: 2026/11/12 19:36:55]
 
 **user**: raylo\i malo to
-
-<!-- copilot-image:2dbf7125b1e1405d99a1dc19dca14c7e6ab37fdafb62e94d3f445f5e83d383db -->
-![[copilot-image-2dbf7125b1e1405d99a1dc19dca14c7e6ab37fdafb62e94d3f445f5e83d383db.png]]
-<!-- /copilot-image -->
-
-<!-- copilot-image:d330e7347d8d970eac1d77d3ab3c0ab79be4ae915d814d92ed20fa5a78754c08 -->
-![[copilot-image-d330e7347d8d970eac1d77d3ab3c0ab79be4ae915d814d92ed20fa5a78754c08.png]]
-<!-- /copilot-image -->
 [Timestamp: 2026/11/12 19:37:51]
 
 **ai**: a) in b) si **zamenjal**. Prav je:
@@ -122,7 +111,7 @@ Smiselno je tudi po vsebini:
 Posebni akter **podeduje** vse primere uporabe splošnega akterja. Imetnik zlate kartice in kreditojemalec torej lahko tudi dvigneta gotovino, čeprav nimata svoje črte do Dviga gotovine.
 
 c), d) in vprašanje o relaciji med akterji imaš prav.
-[Timestamp: 2026/11/12 19:37:51]
+[Timestamp: 2026/11/12 19:38:00]
 
 **user**: a ups nisem vidil pu[;ice. sepravi kaj je definicija komitenta_ a tako se re;e splo[nemu clenu.  sedaj sem opayil da imam tipkovnico nastimano na anglesko. kako jo dam na slovensko ce jo upas jo daj ti y ukaiy.
 [Timestamp: 2026/11/12 19:41:30]
@@ -136,7 +125,7 @@ Splošnemu členu v UML rečemo:
 - **posebni (specializirani) akter** (angl. *child*), to sta tukaj Kreditojemalec in Imetnik zlate kartice
 
 Pri razredih velja isto: splošni razred je **nadrazred**, posebni je **podrazred**.
-[Timestamp: 2026/11/12 19:41:30]
+[Timestamp: 2026/11/12 19:41:35]
 
 **user**: ok sedaj poglej zapiske če je to noter
 [Timestamp: 2026/11/12 19:43:15]
@@ -152,11 +141,9 @@ Ni pa izrecno napisano, da zunanji sistem **ne** narišeš kot pravokotnik, zato
 **Posplošitev med akterji (vprašanje s Komitentom): ni noter.** Posplošitev s praznim trikotnikom je opisana samo pri diagramu razredov (»Clan je Oseba«). Da lahko z njo povežeš tudi **akterje** in da posebni akter podeduje primere uporabe splošnega, v zapiskih ne piše.
 
 Če želiš, bom oboje dopisal v obstoječo tabelo gradnikov diagrama primerov uporabe, brez novega razdelka.
-[Timestamp: 2026/11/12 19:43:15]
+[Timestamp: 2026/11/12 19:43:19]
 
-**user**: <!-- copilot-image:962413e5d07f432763d161f2b4f1a8167ba60b2d669ac640fc54174bf1957ec9 -->
-![[copilot-image-962413e5d07f432763d161f2b4f1a8167ba60b2d669ac640fc54174bf1957ec9.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 19:47:08]
 
 **ai**: **Rezultat:** $2^{34}$ B $= 16$ GB.
@@ -173,11 +160,9 @@ Mere pomnilnika so $2^{10}$ vrstic $\times$ $2^{24}$ stolpcev $= 1024 \times 16\
 **Pazi:** ne zamenjaj vhodov in izhodov. Dekodirnik z $n$ **vhodi** ima $2^n$ **izhodov**: dekodirnik vrstic ima tukaj $2^{10} = 1024$ izhodov, dekodirnik stolpcev pa $2^{24}$.
 
 To je ista snov kot nalogi 2 in 3 v [[racualniska arhitektura]], le obrnjena. Tudi 34 bitov za 16 GB že imaš v nalogi 8.
-[Timestamp: 2026/11/12 19:47:08]
+[Timestamp: 2026/11/12 19:47:16]
 
-**user**: <!-- copilot-image:44ec3e4cc987e6e67fc2090a7d189719effb1c95512754d971f56d800df8bc81 -->
-![[copilot-image-44ec3e4cc987e6e67fc2090a7d189719effb1c95512754d971f56d800df8bc81.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 19:50:02]
 
 **ai**: **Rezultat:** verjetnost zadetka je $50\,\%$.
@@ -192,11 +177,9 @@ $$x \cdot 10 + (1-x) \cdot 40 = 25$$
 $$40 - 30x = 25 \Rightarrow x = \frac{15}{30} = 0{,}5$$
 
 Če kviz $50\,\%$ označi kot napačno, profesor računa brez časa predpomnilnika pri zgrešitvi: $10x + 30(1-x) = 25 \Rightarrow x = 0{,}25$, torej $25\,\%$. Na vajah ste računali z $10 + 30$, zato najprej poskusi z $50\,\%$.
-[Timestamp: 2026/11/12 19:50:02]
+[Timestamp: 2026/11/12 19:50:08]
 
-**user**: <!-- copilot-image:214026dccb1adea2fdbc48915089719a54069a3a8ffedb524211c289dc69838a -->
-![[copilot-image-214026dccb1adea2fdbc48915089719a54069a3a8ffedb524211c289dc69838a.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 19:59:16]
 
 **ai**: Odgovor a) je **napačen**, ker ima zamenjana z in w. Program naredi:
@@ -216,11 +199,9 @@ else
    - **ne** ($y \geq x$): `LOAD Z`, `JUMP SEVEN` preskoči LOAD W, nato `STORE X`, torej $x = z$
 
 **Past je v ukazu COMPARE:** `COMPARE Y` ne primerja »x z y«, ampak **y z registrom**. Pogoj se zato bere kot $y < x$, kar je isto kot $x > y$. Med ponujenimi odgovori je pravilen lahko tudi zapisan kot `if (x > y) x = w else x = z`, ker pomeni isto.
-[Timestamp: 2026/11/12 19:59:16]
+[Timestamp: 2026/11/12 19:59:25]
 
-**user**: <!-- copilot-image:b57d11afbe49839f35da0c51c4969353ed7992b1b935386fe811dd63d4150902 -->
-![[copilot-image-b57d11afbe49839f35da0c51c4969353ed7992b1b935386fe811dd63d4150902.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 20:01:51]
 
 **ai**: Celoten ukaz ima $4 + 10 = 14$ bitov: najprej operacijska koda iz tabele v [[Strojni ukazi]], nato naslov v dvojiškem zapisu, dopolnjen z ničlami na 10 bitov.
@@ -233,7 +214,7 @@ else
   → **`01000001000001`**
 
 Vpiši jih brez presledkov. Če kviz pravilnega odgovora ne sprejme, poskusi s presledkom med kodo in naslovom (npr. `0011 0000100000`), ker je to odvisno od tega, kako je profesor nastavil vprašanje.
-[Timestamp: 2026/11/12 20:01:51]
+[Timestamp: 2026/11/12 20:01:58]
 
 **user**: ok sedaj kako dela compare v asembliju
 [Timestamp: 2026/11/12 20:05:16]
@@ -269,11 +250,9 @@ JUMPGT  NAPREJ ; GT je 1, zato skoči
 **Kako to prevedeš v if:** pri `LOAD A`, `COMPARE B`, `JUMPLT L` zapišeš pogoj kot »B < A«. Skok se zgodi, ko pogoj velja, zato je koda na oznaki L del »če«, koda takoj za skokom pa del »sicer«. Točno tako je bila sestavljena prejšnja naloga.
 
 **Pazi v zapiskih:** v [[Strojni ukazi]] je pri razdelku »3. Primerjanje« primer `COMPARE X, Y`, ki primerja dve pomnilniški lokaciji. Na kvizih in v tabeli ukazov pa se uporablja različica z enim naslovom, ki primerja z registrom R.
-[Timestamp: 2026/11/12 20:05:16]
+[Timestamp: 2026/11/12 20:05:27]
 
-**user**: <!-- copilot-image:6628ed1d6706cf5d5937732f551bbaab8e1409a271d33a1af8e82785a22699a1 -->
-![[copilot-image-6628ed1d6706cf5d5937732f551bbaab8e1409a271d33a1af8e82785a22699a1.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 20:18:51]
 
 **ai**: **Pravilen je e) `01010000`.**
@@ -285,11 +264,9 @@ $$80 = 64 + 16 = 2^6 + 2^4 \to 1010000 \to \mathbf{01010000}\ \text{(8 bitov)}$$
 **Hitro preverjanje:** pozitivno število se v dvojiškem komplementu vedno začne z **0**. Zato a), b) in d) že na prvi pogled odpadejo, c) pa je $64 + 32 = 96$.
 
 b) `11010000` je zvijača: to je $80$, zapisan v **predznaku in velikosti** kot $-80$. V dvojiškem komplementu bi bil $-80$ enak `10110000`.
-[Timestamp: 2026/11/12 20:18:51]
+[Timestamp: 2026/11/12 20:18:56]
 
-**user**: <!-- copilot-image:fbab29145caa967689500614c7278522b1bb2f5a1cbc16cefdbc95a12d305c5b -->
-![[copilot-image-fbab29145caa967689500614c7278522b1bb2f5a1cbc16cefdbc95a12d305c5b.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 20:20:38]
 
 **ai**: **Odgovor:** `1101010101 000111` (mantisa `1101010101`, eksponent `000111`)
@@ -309,7 +286,7 @@ $$\mathbf{0}\,00111$$
 **Pazi:** zaradi izgube bita se v resnici shrani $-85{,}25$, ne $-85{,}375$. Za natančen zapis bi mantisa potrebovala 11 bitov.
 
 Vpiši najprej s presledkom med mantiso in eksponentom. Če kviz tega ne sprejme, poskusi brez presledka: `1101010101000111`.
-[Timestamp: 2026/11/12 20:20:38]
+[Timestamp: 2026/11/12 20:20:47]
 
 **user**: Kakšna je desetiška vrednost zapisa 0110 1101 0010 1000, če ga tolmačimo kot znanstveni zapis (11 bitov mantisa, 5 bitov eksponent)?
 
@@ -334,11 +311,9 @@ $$11011010 = 128 + 64 + 16 + 8 + 2 = 218, \qquad 0{,}01 = 2^{-2} = 0{,}25$$
 Skupaj $218{,}25$.
 
 **Pazi pri razdelitvi:** presledki v zapisu `0110 1101 0010 1000` so le za lažje branje po 4 bite in **ne** kažejo, kje se mantisa konča. Mejo vedno odšteješ sam: 11 bitov, nato 5.
-[Timestamp: 2026/11/12 20:26:33]
+[Timestamp: 2026/11/12 20:26:41]
 
-**user**: <!-- copilot-image:14c702e3189a877f496d3adade32d734be21c48b3424df29e50ac73eb25e4c83 -->
-![[copilot-image-14c702e3189a877f496d3adade32d734be21c48b3424df29e50ac73eb25e4c83.png]]
-<!-- /copilot-image -->
+**user**: 
 [Timestamp: 2026/11/12 20:28:27]
 
 **ai**: **Pravilen je c) `11011111`.**
@@ -355,10 +330,10 @@ Drugi odgovori so pasti:
 - b) `11011110` bi bil samo invertiran, brez $+1$, tu pa je še drugačen
 - d) se začne z 0, zato je pozitivno število
 - e) `11011101` je $-35$
-[Timestamp: 2026/11/12 20:28:27]
+[Timestamp: 2026/11/12 20:28:32]
 
 **user**: sepravi če je decimalka 0,01. a bi se dalo to še nekako drugače prevediti kakor samo z 2 na -2
-[Timestamp: 2026/11/12 20:31:18]
+[Timestamp: 2026/11/12 20:31:19]
 
 **ai**: Da, dve priročni poti.
 
@@ -382,7 +357,7 @@ To je najhitrejše, ko je za vejico veliko enic.
 **Popravek prejšnjega odgovora:** pri $-33$ sem dve pasti narobe razložil. Pravilni odgovor c) ostaja.
 - a) `11100001` ni predznak in velikost (to bi bilo `10100001`), ampak $-31$ v dvojiškem komplementu.
 - b) `11010111` je $-41$.
-[Timestamp: 2026/11/12 20:31:18]
+[Timestamp: 2026/11/12 20:31:31]
 
 **user**: kaj pa v obratnem vrstnem redu. sepravi iz ..1010,01101. tisto kar je za vejico daš samo /2 ubistvu za vsak bit po vrsti in nato samo prišteješ. ali pa daš povsod samo 2 na -n po vrsti in prišteješ
 [Timestamp: 2026/11/12 20:35:07]
@@ -415,4 +390,83 @@ bit 1:  (0,625 + 1) / 2 = 0,8125
 bit 0:  (0,8125 + 0) / 2 = 0,40625
 ```
 Tako se izogneš majhnim številom, kot je $0{,}03125$, in nikoli ne rabiš potenc. Na kvizu je najvarneje prvo, tretje pa uporabi za preverjanje.
-[Timestamp: 2026/11/12 20:35:07]
+[Timestamp: 2026/11/12 20:35:17]
+
+**user**: daj mi neko stevilo da ga pretvorim d znanstveni zapis
+[Timestamp: 2026/11/13 13:13:15]
+
+**ai**: Pretvori v znanstveni zapis, kjer ima **mantisa 10 bitov** in **eksponent 6 bitov** (oba v zapisu predznak in velikost):
+
+$$-12{,}8125$$
+
+Povej še, ali se pri zapisu kakšen bit izgubi. Ko boš imel rezultat, mi ga pošlji in ga bom pregledal.
+[Timestamp: 2026/11/13 13:13:15]
+
+**user**: 1001001101 mantisa eksponent: 000101
+[Timestamp: 2026/11/13 13:22:27]
+
+**ai**: Ni pravilno. Pravilno je: **mantisa `1110011010`, eksponent `000100`**, noben bit se ne izgubi.
+
+**Kje je šlo narobe:**
+- **Normalizacija:** tvoja mantisa za predznakom se začne z `00…`. Po normalizaciji je prvi bit za vejico **vedno 1**, ker vejico postaviš točno pred prvo enico. Zato je že na prvi pogled vidno, da nekaj ni v redu.
+- **Eksponent:** imaš 5, pravilno je 4.
+
+**Pravilni postopek:**
+1. Celi del: $12 = 8 + 4 \to 1100$
+2. Decimalni del: $0{,}8125 = 0{,}5 + 0{,}25 + 0{,}0625 \to 0{,}1101$
+   (ali z množenjem: $0{,}8125 \to 1{,}625 \to 1{,}25 \to 0{,}5 \to 1{,}0$, cele dele bereš navzdol in dobiš `1101`)
+3. Skupaj: $1100{,}1101$
+4. Normaliziraš (vejica gre 4 mesta levo): $0{,}11001101 \times 2^4$
+5. Mantisa: predznak **1** in `11001101`, od desne dopolnjeno z ničlami na 9 bitov, torej $\mathbf{1\,110011010}$
+6. Eksponent: predznak **0** in $4 = 100$, od leve dopolnjeno na 5 bitov, torej $\mathbf{0\,00100}$
+
+Za vejico je 8 bitov, prostora je 9, zato se **nič ne izgubi**.
+
+Napiši mi, kako si pretvoril 12 in 0,8125, pa ti povem, na katerem koraku je nastala napaka. Lahko ti dam tudi novo število.
+[Timestamp: 2026/11/13 13:22:27]
+
+**user**: daj mi na hitro ponovitev od grafov
+[Timestamp: 2026/11/13 13:24:41]
+
+**ai**: V zapiskih iz uvoda v računalništvo nimaš teorije grafov, zato predvidevam, da misliš **UML diagrame** iz [[02 UML - pregled]]. Če si mislil kaj drugega, mi povej.
+
+# UML na hitro
+
+**Dve skupini:**
+- **strukturni** diagrami: iz **česa** je sistem (diagram razredov)
+- **diagrami vedenja**: kaj sistem **počne** (diagram primerov uporabe, sekvenčni diagram)
+
+## Diagram primerov uporabe
+Kdo lahko kaj dela s sistemom, **brez** vrstnega reda.
+- **akter**: lutka, **zunaj** meje sistema; je oseba **ali zunanji sistem** (Bankart!)
+- **primer uporabe**: elipsa, glagol + predmet (»Dvig gotovine«)
+- **meja sistema**: pravokotnik z imenom sistema
+- **povezava**: polna črta akter–primer
+- **«include»**: črtkana puščica od osnovnega **k vključenemu**, zgodi se **vedno** (Dvig gotovine → Avtorizacija)
+- **«extend»**: črtkana puščica od razširitve **k osnovnemu**, zgodi se **včasih** (Tiskanje potrdila → Dvig gotovine)
+- **posplošitev med akterji**: prazen trikotnik pri **splošnem** akterju (Komitent), posebni akter podeduje vse njegove primere uporabe
+
+## Sekvenčni diagram
+**Vrstni red sporočil** pri enem scenariju, **čas teče navzdol**.
+- **udeleženec**: pravokotnik (del **našega** sistema), **akter**: lutka (zunaj)
+- **življenjska črta**: črtkana navpična črta
+- **aktivacija**: ozek pravokotnik, ko udeleženec dela
+- **sinhroni klic**: polna črta, **polna** konica (čaka na odgovor)
+- **asinhroni klic**: **odprta** konica (ne čaka)
+- **odgovor**: **črtkana** črta
+- okvirji: **alt** (če/sicer), **opt** (neobvezno), **loop** (ponavljanje)
+
+## Diagram razredov
+Razredi z **atributi**, **metodami** in povezavami.
+- razred: pravokotnik v treh delih (ime, atributi, metode)
+- vidnost: `+` javno, `-` zasebno, `#` zaščiteno, `~` paketno
+- **asociacija**: polna črta (se poznata)
+- **agregacija**: **prazen romb** pri celoti, del obstaja tudi sam (Ekipa ◇ Igralec)
+- **kompozicija**: **poln romb** pri celoti, del ne obstaja brez celote (Hiša ◆ Soba)
+- **posplošitev**: **prazen trikotnik** pri splošnem razredu (»je vrsta«)
+- **odvisnost**: črtkana puščica (»uporablja«, npr. kot parameter)
+- **realizacija**: črtkana črta s praznim trikotnikom, razred → vmesnik
+- **kratnost**: `1`, `0..1`, `*`, `1..*`
+
+**Najpogostejše pasti:** smer puščic pri include in extend, pri katerem koncu je trikotnik oziroma romb, in da je zunanji sistem **akter**, ne pravokotnik.
+[Timestamp: 2026/11/13 13:24:41]

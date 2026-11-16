@@ -6,11 +6,12 @@ sessionId: "83084472-79d8-4beb-858b-4ddddb3dfbfa"
 topic: "kaj je ta kartezični produkt?"
 tags:
   - copilot-conversation
-usage: '{"usedTokens":147410,"contextWindow":1000000,"inputTokens":2,"outputTokens":512,"cacheReadTokens":146759,"cacheWriteTokens":137,"updatedAt":1794563798891}'
+usage: '{"usedTokens":150313,"contextWindow":1000000,"inputTokens":2,"outputTokens":170,"cacheReadTokens":149846,"cacheWriteTokens":295,"updatedAt":1794571924427}'
+lastAccessedAt: 1794571813384
 ---
 
 **user**: kaj je ta kartezični produkt?
-[Timestamp: 2026/11/13 08:38:38]
+[Timestamp: 2026/11/13 08:38:41]
 
 **ai**: **Kartezični produkt** dveh množic $A$ in $B$ je množica **vseh urejenih parov**, pri katerih je prva komponenta iz $A$, druga pa iz $B$:
 
@@ -43,7 +44,7 @@ $$A \times B = \{(1,x), (1,y), (1,z), (2,x), (2,y), (2,z)\}$$
 - $(A \cap B) \times (C \cap D) = (A \times C) \cap (B \times D)$
 
 Če želiš, lahko to razlago dodam v [[13.11 - predavanje]].
-[Timestamp: 2026/11/13 08:38:38]
+[Timestamp: 2026/11/13 08:38:44]
 
 **user**: razloži malo te lastnosti karteićnega zapisa
 [Timestamp: 2026/11/13 08:48:24]
@@ -83,7 +84,7 @@ $$\iff (x \in A \land y \in C) \land (x \in B \land y \in D) \iff (x,y) \in (A \
   - desno: $\{(1,x)\} \cup \{(2,y)\} = \{(1,x), (2,y)\}$
   - na desni manjkata „mešana“ para $(1,y)$ in $(2,x)$
 - Geometrijsko: unija dveh pravokotnikov v splošnem ni pravokotnik.
-[Timestamp: 2026/11/13 08:48:24]
+[Timestamp: 2026/11/13 08:48:43]
 
 **user**: dobro daj to noter v zapisek
 [Timestamp: 2026/11/13 08:50:39]
@@ -91,7 +92,7 @@ $$\iff (x \in A \land y \in C) \land (x \in B \land y \in D) \iff (x,y) \in (A \
 **ai**: Razlago lastnosti sem dodal v [[13.11 - predavanje]], takoj pod prosojnico z lastnostmi kartezičnega produkta. Vključil sem vse tri lastnosti z intuicijo, primerom in dokazom ter opozorilo s protiprimerom, da pri uniji podobna enakost ne velja.
 
 Medtem si zapisek urejal tudi sam. Tvojih sprememb nisem prepisal, le dodal sem novo besedilo za tisto prosojnico.
-[Timestamp: 2026/11/13 08:50:39]
+[Timestamp: 2026/11/13 08:50:52]
 
 **user**: razloži mi še lastnosti kartzičnega produkta(tisto odspodaj)
 [Timestamp: 2026/11/13 08:55:53]
@@ -132,7 +133,7 @@ To je **obrat lastnosti 2**, vendar velja **samo, če produkt ni prazen**.
 - **Posledica:** $|A^k| = m^k$. Na primer $\{0,1\}^3$ ima $2^3 = 8$ elementov.
 
 Če želiš, lahko tudi to dodam v [[13.11 - predavanje]] pod to prosojnico.
-[Timestamp: 2026/11/13 08:55:53]
+[Timestamp: 2026/11/13 08:55:55]
 
 **user**: dobro daj to v zapisek in 2 tudi geometrisko pokaži
 [Timestamp: 2026/11/13 08:58:30]
@@ -145,7 +146,7 @@ Za lastnost 2 sem narisal sliko in jo vstavil pod dokaz. Shranil sem jo kot [[Ka
 
 - **Modri pravokotnik** je $C \times D$. Na osi $x$ ga omejuje množica $C$, na osi $y$ pa množica $D$.
 - **Oranžni pravokotnik** je $A \times B$. Ker je oranžni $A$ znotraj modrega $C$ in oranžni $B$ znotraj modrega $D$, oranžni pravokotnik leži v celoti znotraj modrega.
-[Timestamp: 2026/11/13 08:58:30]
+[Timestamp: 2026/11/13 08:58:32]
 
 **user**: kaj je pri teh končnih množicah in t atrditev. kaj predstavlja trditev 2
 [Timestamp: 2026/11/13 09:00:26]
@@ -176,7 +177,7 @@ Za lastnost 2 sem narisal sliko in jo vstavil pod dokaz. Shranil sem jo kot [[Ka
 - **Povezava s točko 3:** podmnožico $S \subseteq A$ lahko opišeš s funkcijo $f : A \to \{0, 1\}$. Pri tem je $f(a) = 1$, če $a \in S$, in $f(a) = 0$, če $a \notin S$. Takih funkcij je po točki 2 natanko $2^{|A|}$, zato je tudi podmnožic $2^{|A|}$.
 
 Če želiš, lahko tudi to dodam v [[13.11 - predavanje]] pod to prosojnico.
-[Timestamp: 2026/11/13 09:00:26]
+[Timestamp: 2026/11/13 09:00:28]
 
 **user**: r: 𝐴 ={1,2}, 𝐵 ={𝑥,𝑦,𝑧}
 1 lahko preslikaš v 𝑥, 𝑦 ali 𝑧 (3 možnosti), prav tako 2 (3 možnosti).
@@ -212,7 +213,7 @@ V prejšnji razlagi sem vsako funkcijo zapisal krajše kot par $(f(1), f(2))$. T
 **Na kratko:**
 - $|A \times B| = 3 \cdot 2 = 6$ je število vseh možnih **puščic**.
 - $|B^A| = 3^2 = 9$ je število vseh **funkcij**. Vsaka funkcija iz teh 6 puščic izbere natanko eno puščico za vsak element iz $A$.
-[Timestamp: 2026/11/13 09:05:34]
+[Timestamp: 2026/11/13 09:05:45]
 
 **user**: do naslova moč množice v teh zapiskih jih uredi tako da use slike in zapiske izbrišeš in jih nadomestiš. in še normalno uredi zapiske kakor so drugi v tej datoteki
 [Timestamp: 2026/11/13 09:12:21]
@@ -235,7 +236,7 @@ V prejšnji razlagi sem vsako funkcijo zapisal krajše kot par $(f(1), f(2))$. T
 Tvojo skico s kvadratoma sem prerisal v novo risbo [[Kartezični produkt - presek in unija.excalidraw]]. Prejšnja risba za vsebovanost je ostala v zapisku.
 
 Prosojnici o moči končnih množic sem pustil, kot sta bili. Slikovne datoteke in ročni zapiski so še vedno v mapi `stvari/`, odstranil sem jih le iz zapiska. Če želiš, jih lahko tudi izbrišem.
-[Timestamp: 2026/11/13 09:12:21]
+[Timestamp: 2026/11/13 09:12:24]
 
 **user**: uredi sedaj še ta zapisek do konca
 [Timestamp: 2026/11/13 10:00:22]
@@ -259,7 +260,7 @@ Prosojnici o moči končnih množic sem pustil, kot sta bili. Slikovne datoteke 
 **Pazi na prosojnico z izrekom.** Tam je na koncu zapisano $\sum_{i=0}^{n} (-1)^i S_i$. Ta vsota ni enaka moči unije, ampak številu elementov iz $A$, ki niso v nobeni $A_i$. V zapisek sem dal pravilno formulo $\sum_{k=1}^{n} (-1)^{k+1} S_k$ in dodal opombo o razliki. Mogoče je napaka na prosojnici, zato je vredno preveriti pri profesorju.
 
 Slikovne datoteke in ročni zapiski so še vedno v mapi `stvari/`, odstranil sem jih le iz zapiska.
-[Timestamp: 2026/11/13 10:00:22]
+[Timestamp: 2026/11/13 10:00:24]
 
 **user**: te lastnosti relaciji ni treba na dolgo razlagat kot prej. lahko malo krajše.  seda uredi do konca
 [Timestamp: 2026/11/13 10:55:24]
@@ -275,4 +276,28 @@ Slikovne datoteke in ročni zapiski so še vedno v mapi `stvari/`, odstranil sem
 - **grafična predstavitev:** dodal sem risbo [[Graf relacije e f g h.excalidraw]] s puščicami $e \to f \to g \to h$
 
 Slike in ročni zapiski so še vedno v mapi `stvari/`, odstranil sem jih samo iz zapiska.
-[Timestamp: 2026/11/13 10:55:24]
+[Timestamp: 2026/11/13 10:55:27]
+
+**user**: preimenuj to datoteko v nekaj smiselnega in jo dodaj na ds glavno ter vse slike preloži v mapo stvari in popravi povezave
+[Timestamp: 2026/11/13 13:10:52]
+
+**ai**: Drugi zapiski imajo risbe v mapi `stvari`. Tja premaknem tudi teh pet risb in preimenujem zapisek.Opravljeno:
+
+- **Preimenovanje:** zapisek `13.11 - predavanje` se zdaj imenuje [[Kartezični produkt, moč množic in relacije]].
+- **DS glavno:** v [[DS glavno]] sem pod „predavanja“ dodal vrstico `13. 11. 2026: [[Kartezični produkt, moč množic in relacije]]`.
+- **Risbe:** vseh 5 risb iz zapiska sem premaknil iz `diskretne strukture/` v `stvari/`, kjer so tudi risbe za [[Množice]].
+- **Povezave:** popravki niso bili potrebni. Zapisek vstavlja risbe samo po imenu (na primer `![[Naloga programerji.excalidraw]]`), zato jih Obsidian najde tudi v novi mapi. Drugih povezav na stari naslov zapiska nisem našel.
+- **Prosojnice:** te so bile že v `stvari/`. Iz zapiska sem jih odstranil že prej, zato jih nisem premikal.
+
+V zapisku nisem odprl nobene vstavljene risbe, da bi preveril, ali se po premiku res prikaže.
+
+Opazil sem še, da tudi [[Množice]] ni navedena v [[DS glavno]]. Če želiš, jo dodam.
+[Timestamp: 2026/11/13 13:10:52]
+
+**user**: dodaj
+[Timestamp: 2026/11/13 13:11:56]
+
+**ai**: [[Množice]] sem dodal v [[DS glavno]] pod „predavanja“, pred zapisek s 13. 11. Datuma predavanja ne vem, zato sem vpisal samo povezavo. Če ga poveš, ga dodam.
+
+Priložen je bil tudi zapisek [[01 Zahteve in uporabniške zgodbe]], vendar ga nisem spreminjal. „Dodaj“ sem razumel kot odgovor na moj prejšnji predlog.
+[Timestamp: 2026/11/13 13:11:56]

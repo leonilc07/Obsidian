@@ -10,6 +10,10 @@ lastnost velja za **n + 1**
 
 če te dva koraka veljata potem lastost velja za vsa ${}\mathbb{N}{}$
 
+Bolj natančno:
+- **baza indukcije:** trditev velja pri **najmanjšem** naravnem številu, za katero jo trdimo (to je lahko $0$, $1$ ali npr. $3$ kot v 5. primeru)
+- **indukcijski korak:** če trditev velja pri nekem naravnem številu $k$ (**indukcijska predpostavka**, IP), potem velja tudi pri njegovem nasledniku $k + 1$
+
 ### 1. primer: 
 
 enačba:
@@ -232,3 +236,100 @@ Dokaz:
 2. Vsaka diagonala razdeli mnogokotnik na dva manjša konveksna mnogokotnika. Izmed vseh diagonal triangulacije in njunih strani izberemo tisto stran z najmanj oglišči. Naj bo to mnogokotnik $Q$.
 3. Če bi imel $Q$ več kot 3 oglišča, bi ga triangulacija morala deliti naprej z novo diagonalo (po koraku 1). Ta bi imela na eni strani še manj oglišč, kar je protislovje.
 4. Torej je $Q$ trikotnik. Ima eno stranico (diagonalo) in dve stranici, ki sta na robu mnogokotnika, ker med krajiščema diagonale leži natanko eno oglišče. $\square$
+
+### 7. primer: vsota lihih števil
+enačba:
+
+$$
+1 + 3 + 5 + \dots + (2n - 1) = n^2
+$$
+
+Vsota prvih $n$ lihih naravnih števil je $n^2$. $n$-to liho število je $2n - 1 = 2(n-1) + 1$, naslednje pa $2n + 1$.
+
+BAZA:
+
+$$
+\begin{align}
+n &= 1 \\
+1 &= 1^2
+\end{align}
+$$
+
+INDUKCIJSKI KORAK
+
+PREDPOSTAVIMO: $1 + 3 + \dots + (2n - 1) = n^2$
+RADI BI VIDELI: $1 + 3 + \dots + (2n - 1) + (2n + 1) = (n+1)^2$
+RAČUNAMO: prvih $n$ členov nadomestimo s predpostavko, nato prepoznamo kvadrat binoma:
+
+$$
+\begin{align}
+1 + 3 + \dots + (2n - 1) + (2n + 1) &= n^2 + (2n + 1) \\
+&= n^2 + 2n + 1 \\
+&= (n+1)^2
+\end{align}
+$$
+
+$\blacksquare$
+
+### 8. primer: $F_{3n}$ je sodo
+Za Fibonaccijevo zaporedje (glej 3. primer) pokažemo, da je $F_{3n}$ sodo za vsak $n \in \mathbb{N}$.
+
+BAZA:
+
+$$
+\begin{align}
+n &= 0 \\
+F_{3 \cdot 0} = F_0 &= 0 \quad \text{(sodo)}
+\end{align}
+$$
+
+INDUKCIJSKI KORAK
+
+PREDPOSTAVIMO: $F_{3n}$ je sodo, $F_{3n} = 2k$, $k \in \mathbb{Z}$
+RADI BI VIDELI: $F_{3(n+1)} = F_{3n+3}$ je sodo
+RAČUNAMO: **isti trik kot pri $F_{4n}$**: razpisujemo z rekurzivno formulo, dokler ne ostaneta samo $F_{3n+1}$ in $F_{3n}$:
+
+$$
+\begin{align}
+F_{3n+3} &= F_{3n+2} + F_{3n+1} \\
+&= (F_{3n+1} + F_{3n}) + F_{3n+1} \\
+&= 2F_{3n+1} + F_{3n} \\
+&= 2F_{3n+1} + 2k \\
+&= 2 \, (F_{3n+1} + k)
+\end{align}
+$$
+
+$2F_{3n+1}$ je sodo, ker je pomnoženo z 2, $F_{3n}$ pa je sodo po predpostavki. Vsota dveh sodih števil je soda. $\blacksquare$
+
+### 9. primer: tlakovanje s triominami
+**Triomino** je ploščica iz treh kvadratkov v obliki črke L.
+
+Trditev: iz šahovnice velikosti $2^n \times 2^n$ izrežemo **poljubno** eno polje. Tako pokvarjeno ploščo lahko vedno tlakujemo s triominami.
+
+BAZA:
+
+$$
+\begin{align}
+n &= 0 \\
+2^0 \times 2^0 &= 1 \times 1
+\end{align}
+$$
+
+Šahovnica ima samo eno polje. Ko ga odstranimo, ne ostane nič, praznega pa tlakujemo z $0$ triominami. Trditev velja.
+
+INDUKCIJSKI KORAK
+
+PREDPOSTAVIMO: ploščo $2^n \times 2^n$ lahko tlakujemo, **ne glede na lokacijo** odstranjenega polja
+RADI BI VIDELI: tudi ploščo $2^{n+1} \times 2^{n+1}$ z enim odstranjenim poljem lahko tlakujemo
+RAČUNAMO:
+
+1. Ploščo $2^{n+1} \times 2^{n+1}$ razdelimo na **4 kvadrante** velikosti $2^n \times 2^n$
+2. Odstranjeno polje leži v enem od kvadrantov, ta je po predpostavki že primeren
+3. Ostali trije kvadranti so celi. V **sredino** plošče položimo en triomino, ki pokrije po eno polje (tisto ob središču) v vsakem od teh treh kvadrantov
+4. Zdaj ima **vsak** kvadrant natanko eno manjkajoče ali pokrito polje, zato ga po predpostavki lahko tlakujemo
+
+$\blacksquare$
+
+![[Indukcija triomino.excalidraw]]
+
+**Trik:** predpostavka mora veljati za **katerokoli** lokacijo odstranjenega polja. Le tako jo lahko uporabimo tudi na treh kvadrantih, kjer je "odstranjeno" polje tisto, ki ga pokrije srednji triomino.

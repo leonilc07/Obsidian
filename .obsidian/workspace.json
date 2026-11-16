@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9d7e0e0b0df94e3c",
+        "id": "47d0d2f4e79263dd",
         "type": "tabs",
         "children": [
           {
-            "id": "5376f018937338ac",
+            "id": "9880d13a81382f0f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "diskretne strukture/13.11 - predavanje.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "13.11 - predavanje"
+              "title": "New tab"
             }
           }
         ]
@@ -97,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.5892791748047
+    "width": 200
   },
   "right": {
     "id": "e6554e84e3ddede5",
@@ -209,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 446.08099365234375
+    "width": 516.9197387695312
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,7 +224,38 @@
   },
   "active": "451264c88924f998",
   "lastOpenFiles": [
-    "diskretne strukture/Graf relacije e f g h.excalidraw.md",
+    "Excalidraw/DS - vaje 4.excalidraw.md",
+    "Excalidraw/DS - Predikati - vaje 4.excalidraw.md",
+    "diskretne strukture/področje pogovora in predikati.md.tmp.15108.0ecc146d37c7",
+    "diskretne strukture/9.11.md",
+    "Excalidraw/DS - Predikati in množice - vaje.excalidraw.md",
+    "diskretne strukture/Množice.md.tmp.15108.68d1a2f15503",
+    "Excalidraw/DS - Množice - vaje.excalidraw.md",
+    "diskretne strukture/12. 11 - indukcija dopolnjevanje.md",
+    "stvari/Indukcija triomino.excalidraw.md",
+    "Excalidraw/diskretne strukture vaje 4.md",
+    "diskretne strukture/DS glavno.md.tmp.15108.8447d2509d05",
+    "diskretne strukture/DS glavno.md",
+    "stvari/Vaje 6 - sintaksno drevo dodatna 2.excalidraw.md",
+    "stvari/Vaje 6 - sintaksno drevo 6.7.excalidraw.md",
+    "stvari/Vaje 6 - sintaksno drevo 6.5.excalidraw.md",
+    "stvari/Vaje 6 - sintaksno drevo 6.4.excalidraw.md",
+    "stvari/Turingov stroj - naloga 7.excalidraw.md",
+    "stvari/Turingov stroj - naloga 10.excalidraw.md",
+    "stvari/Operacije z množicami.excalidraw.md",
+    "stvari/Naloga programerji.excalidraw.md",
+    "stvari/Naloga dijaki.excalidraw.md",
+    "stvari/Moč unije dveh množic.excalidraw.md",
+    "stvari/Komplement množice.excalidraw.md",
+    "stvari/Kartezični produkt - presek in unija.excalidraw.md",
+    "stvari/Kartezični produkt - podmnožice.excalidraw.md",
+    "stvari/Intervali pokritje razbitje.excalidraw.md",
+    "stvari/Graf relacije e f g h.excalidraw.md",
+    "Excalidraw/UR - Vaje 6 - sintaksno drevo dodatna 2.excalidraw.md",
+    "Excalidraw/UR - Vaje 6 - sintaksno drevo 6.7.excalidraw.md",
+    "diskretne strukture/06_dsvsp_vaje.pdf",
+    "copilot/copilot-conversations/attachments/copilot-image-99cba50c32fee9b9c397ca637c6be573a399b8d4c890f091112ec4adb40b050f.png",
+    "Untitled.canvas",
     "stvari/Pasted image 20261113105516.png",
     "stvari/Ink/Writing/2026.11.13 - 10.40am.svg",
     "stvari/Pasted image 20261113104012.png",
@@ -238,42 +265,11 @@
     "stvari/Pasted image 20261113102949.png",
     "stvari/Ink/Writing/2026.11.13 - 10.20am.svg",
     "stvari/Pasted image 20261113101842.png",
-    "stvari/Pasted image 20261113101646.png",
-    "diskretne strukture/Naloga programerji.excalidraw.md",
-    "diskretne strukture/Moč unije dveh množic.excalidraw.md",
-    "diskretne strukture/Kartezični produkt - podmnožice.excalidraw.md",
-    "diskretne strukture/13.11 - predavanje.md",
-    "diskretne strukture/06_dsvsp_vaje.pdf",
     "diskretne strukture/13.11 - predavanje.md.tmp.12424.38469fee555d",
-    "diskretne strukture/Kartezični produkt - presek in unija.excalidraw.md",
-    "copilot/copilot-conversations/agent__kaj_je_ta_kartezični_produkt@20261113_083838.md",
-    "Drawing 2026-11-09 16.26.43.excalidraw.md",
-    "uvod v računalništvo/binarna števila.md",
-    "uvod v računalništvo/Glavno UR.md",
-    "uvod v računalništvo/turingov stroj.md",
-    "uvod v računalništvo/Strojni ukazi.md",
-    "uvod v računalništvo/01 Zahteve in uporabniške zgodbe.md",
-    "uvod v računalništvo/02 UML - pregled.md",
-    "copilot/copilot-conversations/agent__ok_sedaj_se_bomo_učili_malo_uvoda_v_računalništvo._kviz@20261112_192546.md",
-    "računalniška arhitektura/operacije pomika.md",
-    "računalniška arhitektura/operacije pomika in load-store.md",
     "računalniška arhitektura/operacije pomika.md.tmp.10552.9b98df95ff04",
-    "računalniška arhitektura/12.11 predavanje - operacije pomika.md",
-    "copilot/copilot-conversations/agent__sedaj_sem_naredil_tukaj_zapiske._daj_jih_urediti_kakor_ponavadi.@20261112_160509.md",
-    "diskretne strukture/12. 11 - indukcija dopolnjevanje.md",
-    "matematika/vrste.md",
-    "matematika/funkcije.md",
-    "matematika/limite - zapiski.md",
-    "matematika/vaje/zapiski - vrste, limite, funkcije (vaje in predavanje).excalidraw.md",
-    "matematika/vaje/zapiski - limite (predavanje).excalidraw.md",
-    "matematika/vaje/zapiski - zaporedja in limite (vaje).excalidraw.md",
     "matematika/funkcije.md.tmp.21068.b925e4c6cf75",
     "matematika/funkcije.md.tmp.21068.f6bb320ab803",
     "matematika/limita.md.tmp.21068.e1afec1b09cd",
-    "matematika/vrste.md.tmp.21068.3777a2b11116",
-    "matematika/vrste.md.tmp.21068.0acecce912f4",
-    "matematika/vrste.md.tmp.21068.8ba3957ccc5e",
-    "matematika/vrste.md.tmp.21068.97e5a72f2aa9",
-    "Untitled.canvas"
+    "matematika/vrste.md.tmp.21068.3777a2b11116"
   ]
 }
